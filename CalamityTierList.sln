@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11430.68 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalamityTierList", "CalamityTierList/CalamityTierList.csproj", "{DED6186E-E89E-1BDE-F815-B257FC3F3A84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED6186E-E89E-1BDE-F815-B257FC3F3A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED6186E-E89E-1BDE-F815-B257FC3F3A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED6186E-E89E-1BDE-F815-B257FC3F3A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED6186E-E89E-1BDE-F815-B257FC3F3A84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA45051B-081D-4B80-A54E-29829F6BAECA}
+	EndGlobalSection
+EndGlobal
