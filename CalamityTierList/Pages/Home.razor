@@ -8,14 +8,14 @@
 
 <h1 style="margin: 50px" disabled>Calamity Weapon Tierlist</h1>
 
-<div id="TestMainBox" class="divider" style="max-width: 100%">
-    <table>
+<div id="TestMainBox" class="divider" style="min-width:100%;overflow-x:auto;">
+    <table style="min-width:600px">
         <thead>
             <tr>
-                <th>Weapon</th>
+                <th style="width: 20%">Weapon</th>
                 <th>Tier</th>
-                <th>Best Times</th>
-                <th>Average Times</th>
+                <th style="width: 33%">Best Times</th>
+                @*<th>Average Times</th>*@
                 <th>Notes</th>
             </tr>
         </thead>
@@ -44,19 +44,21 @@
                 @foreach (var boss in test.BestTimes)
                 {
                     <div style="margin-bottom: 5px">
-                        <b>@boss.name</b>: @boss.timeString
+                                <b>@boss.name</b>: @boss.timeString @if (boss.died > 0) {
+                                <small> (@boss.diedString left)</small>
+                            }
                     </div>
                 }
 				</td>
-                    <td>
+                    @*<td>
                         @foreach (var boss in test.AverageTimes)
                         {
                             <div style="margin-bottom: 5px">
                                 <b>@boss.Key</b>: @Data.FormatTime( boss.Value)
                             </div>
                         }
-                    </td>
-                    <td>
+                    </td>*@
+                    <td style="max-width:33%">
                         @foreach (var boss in test.Tests)
                         {
                             <div style="margin-bottom: 5px">

@@ -30,12 +30,21 @@ thead {
 tr {
     border-style: solid;
     border-radius: 10px;
-    border-color: color-mix( in hsl, var(--backdrop-border) 10%, var(--shaded-bg) 50%);
-    border-width: 1px;
+    border-color: color-mix( in hsl, var(--backdrop-bg), var(--backdrop-border) 15%);
+    border-top-width: 1px;
 }
 
 th {
-padding: 10px;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px;
+    border-color: var(--backdrop-bg);
+    border-style: solid;
+}
+
+th:last-child {
+    border-right: 0px;
+    border-style: none;
 }
 
 td {
@@ -44,7 +53,7 @@ td {
     padding:5px;
 }
 td:nth-child(even) {
-    background-color: color-mix( in hsl, var(--backdrop-bg), var(--backdrop-border) %);
+    background-color: color-mix( in hsl, var(--backdrop-bg), var(--backdrop-border) 5%);
 }
 
 body {
