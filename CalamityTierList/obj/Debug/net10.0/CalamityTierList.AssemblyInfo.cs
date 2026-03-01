@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalamityTierList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a13f209a6d0031a905f160d8a8bf9b3ded8efeb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalamityTierList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalamityTierList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

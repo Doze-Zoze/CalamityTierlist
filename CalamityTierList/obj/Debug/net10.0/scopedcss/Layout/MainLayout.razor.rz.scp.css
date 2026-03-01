@@ -9,7 +9,8 @@ main[b-umgvwog11k] {
 }
 
 .sidebar[b-umgvwog11k] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: color-mix(#5C279A 20%, transparent);
+    background-image: linear-gradient(180deg,#5C279A , transparent)
 }
 
 .top-row[b-umgvwog11k] {

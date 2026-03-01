@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robzo\\source\\repos\\CalamityTierlist\\CalamityTierList\\CalamityTierList.csproj": {}
+    "C:\\Users\\robzo\\source\\repos\\CalamityTierList\\CalamityTierList\\CalamityTierList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robzo\\source\\repos\\CalamityTierlist\\CalamityTierList\\CalamityTierList.csproj": {
+    "C:\\Users\\robzo\\source\\repos\\CalamityTierList\\CalamityTierList\\CalamityTierList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robzo\\source\\repos\\CalamityTierlist\\CalamityTierList\\CalamityTierList.csproj",
+        "projectUniqueName": "C:\\Users\\robzo\\source\\repos\\CalamityTierList\\CalamityTierList\\CalamityTierList.csproj",
         "projectName": "CalamityTierList",
-        "projectPath": "C:\\Users\\robzo\\source\\repos\\CalamityTierlist\\CalamityTierList\\CalamityTierList.csproj",
+        "projectPath": "C:\\Users\\robzo\\source\\repos\\CalamityTierList\\CalamityTierList\\CalamityTierList.csproj",
         "packagesPath": "C:\\Users\\robzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robzo\\source\\repos\\CalamityTierlist\\CalamityTierList\\obj\\",
+        "outputPath": "C:\\Users\\robzo\\source\\repos\\CalamityTierList\\CalamityTierList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

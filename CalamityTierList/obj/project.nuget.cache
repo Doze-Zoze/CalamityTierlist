@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pq1NuQOOtG4=",
+  "dgSpecHash": "XjYuoWE4pS4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\robzo\\source\\repos\\CalamityTierlist\\CalamityTierList\\CalamityTierList.csproj",
+  "projectFilePath": "C:\\Users\\robzo\\source\\repos\\CalamityTierList\\CalamityTierList\\CalamityTierList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robzo\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.3\\microsoft.aspnetcore.app.internal.assets.10.0.3.nupkg.sha512",
     "C:\\Users\\robzo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\10.0.3\\microsoft.aspnetcore.authorization.10.0.3.nupkg.sha512",

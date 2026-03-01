@@ -1,7 +1,84 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+@using CalamityTierList.Data;
+@using System.Text.Json;
+@inject HttpClient Http
 
-<h1>Hello, world!</h1>
+<PageTitle>Calamity Weapon Tierlist</PageTitle>
 
-Welcome to your new app.
+<h1 style="margin: 50px" disabled>Calamity Weapon Tierlist</h1>
+
+<div id="TestMainBox" class="divider" style="max-width: 100%">
+    <table>
+        <thead>
+            <tr>
+                <th>Weapon</th>
+                <th>Tier</th>
+                <th>Best Times</th>
+                <th>Average Times</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+		<tbody>
+            @foreach (var test in Data.aggregateTests)
+    {
+        <tr>
+            <td>
+                <div style="display:flex;flex-direction:column;justify-content:center;">
+                        <img src="@($"https://calamitymod.wiki.gg/images/{test.ItemName.Replace(" ","_")}.png")" style="max-width: 64px" />
+                            @test.ItemName
+                        </div>
+                </td>
+                    <td>
+                        @foreach (var boss in test.Tests)
+                        {
+                            <div style="margin-bottom: 5px">
+                                @boss.tier
+                            </div>
+                        }
+                    </td>
+            <td>
+                @foreach (var boss in test.BestTimes)
+                {
+                    <div style="margin-bottom: 5px">
+                        <b>@boss.name</b>: @boss.timeString
+                    </div>
+                }
+				</td>
+                    <td>
+                        @foreach (var boss in test.AverageTimes)
+                        {
+                            <div style="margin-bottom: 5px">
+                                <b>@boss.Key</b>: @Data.FormatTime( boss.Value)
+                            </div>
+                        }
+                    </td>
+                    <td>
+                        @foreach (var boss in test.Tests)
+                        {
+                            <div style="margin-bottom: 5px">
+                                <p title="@boss.tester">@boss.notes</p>
+                            </div>
+                        }
+                    </td>
+         </tr>
+    }
+    </tbody>
+	</table>
+</div>
+
+@code {
+    public string output
+    {
+        get
+        {
+            return JsonSerializer.Serialize(Data.LoadedData, new JsonSerializerOptions { WriteIndented = true, DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull });
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Data.LoadTestData(Http);
+    }
+
+}

@@ -1,0 +1,62 @@
+﻿[
+    {
+        "weapon": "Galileo Gladius",
+        "tester": "Lynel",
+        "bosses": [
+            {
+                "name": "Old Duke",
+                "time": 300,
+                "note": "rip"
+            },
+            {
+                "name": "Devourer of Gods",
+                "time": 345,
+                "note": "rip"
+            },
+            {
+                "name": "Old Duke",
+                "time": 172,
+                "note": "reel"
+            },
+            {
+                "name": "Devourer of Gods",
+                "time": 348,
+                "note": "reel"
+            }
+        ],
+        "notes": "really fun! but i'm evidently not very good at getting value out of it so like,",
+        "tier": "B"
+    },
+    {
+        "weapon": "Galileo Gladius",
+        "tester": "Critaquil",
+        "bosses": [
+            {
+                "name": "Old Duke",
+                "time": 141
+            },
+            {
+                "name": "Devourer of Gods",
+                "time": 206
+            }
+        ],
+        "notes": "remember what I said about optimization?",
+        "tier": "S"
+    },
+    {
+        "weapon": "Death's Ascension",
+        "tester": "Critaquil",
+        "bosses": [
+            {
+                "name": "Old Duke",
+                "time": 135
+            },
+            {
+                "name": "Devourer of Gods",
+                "time": 213
+            }
+        ],
+        "notes": "37.5% damage nerf, huh?",
+        "tier": "S"
+    }
+]
