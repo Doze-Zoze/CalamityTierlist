@@ -1,62 +1,61 @@
 ﻿[
     {
-        "weapon": "Galileo Gladius",
-        "tester": "Lynel",
+        "tester": "Ueltz",
+        "weapon": "Evil Smasher",
+        "tier": "Z",
+        "notes": "That 3:47? I got lucky and didn't get hit while hitting destroyer segments. If you dont get hit and manage to hit the body for a while, you scale quickly, but in order to keep that you either have to become neo from the matrix or have 20 crosses on you",
         "bosses": [
             {
-                "name": "Old Duke",
-                "time": 300,
-                "note": "rip"
+                "name": "Queen Slime",
+                "timeString": "2:08",
+                "time": 128
             },
             {
-                "name": "Devourer of Gods",
-                "time": 345,
-                "note": "rip"
+                "name": "Cryogen",
+                "timeString": "9:46",
+                "time": 586
             },
             {
-                "name": "Old Duke",
-                "time": 172,
-                "note": "reel"
+                "name": "Skeletron Prime",
+                "timeString": "11:46",
+                "time": 706
             },
             {
-                "name": "Devourer of Gods",
-                "time": 348,
-                "note": "reel"
+                "name": "Destroyer",
+                "timeString": "6:39",
+                "time": 399,
+                "died": 0.2682
+            },
+            {
+                "name": "Destroyer",
+                "timeString": "3:47",
+                "time": 227
+            },
+            {
+                "name": "Twins",
+                "timeString": "13:33",
+                "time": 813
             }
-        ],
-        "notes": "really fun! but i'm evidently not very good at getting value out of it so like,",
-        "tier": "B"
+        ]
     },
     {
-        "weapon": "Galileo Gladius",
-        "tester": "Critaquil",
+        "tester": "WyvernElement",
+        "weapon": "Orderbringer",
+        "notes": "Absolutely peak, super OP in true melee and great otherwise.",
+        "tier": "SS",
         "bosses": [
             {
-                "name": "Old Duke",
-                "time": 141
+                "name": "Exo Mechs",
+                "timeString": "3:46",
+                "time": 226,
+                "note": "Shreds Thanatos and Ares"
             },
             {
-                "name": "Devourer of Gods",
-                "time": 206
+                "name": "Supreme Witch, Calamitas",
+                "timeString": "3:47",
+                "time": 227,
+                "note": "Really good at hearts"
             }
-        ],
-        "notes": "remember what I said about optimization?",
-        "tier": "S"
-    },
-    {
-        "weapon": "Death's Ascension",
-        "tester": "Critaquil",
-        "bosses": [
-            {
-                "name": "Old Duke",
-                "time": 135
-            },
-            {
-                "name": "Devourer of Gods",
-                "time": 213
-            }
-        ],
-        "notes": "37.5% damage nerf, huh?",
-        "tier": "S"
+        ]
     }
 ]

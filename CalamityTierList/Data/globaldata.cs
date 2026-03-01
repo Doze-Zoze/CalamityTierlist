@@ -36,6 +36,21 @@ public class BossTestData
                 time = int.Parse(value);
         }
     }
+    public string diedString
+    {
+        get
+        {
+            if (died == 0)
+                return string.Empty;
+            return $"{(died*100).ToString("##.##")}%";
+        }
+        set
+        {
+            value = value.Replace("%", "");
+            died = Single.Parse(value) / 100f;
+        }
+    }
+    public float died { get; set; }
     public int time { get; set; }
     public string? note { get { return field == string.Empty ? null : field; } set; } = string.Empty;
     public string? gear { get { return field == string.Empty ? null : field; } set; } = string.Empty;
@@ -100,21 +115,21 @@ public static class Data
                     else
                     {
                         var b = best.First(x => x.name == item2.name);
-                        if (b.time > item2.time)
+                        if (b.died > item2.died || (b.time > item2.time && b.died == item2.died))
                             best[best.IndexOf(b)] = item2;
                     }
+                    if (!(item2.died > 0))
+                        if (!avgTime.ContainsKey(item2.name))
+                        {
 
-                    if (!avgTime.ContainsKey(item2.name))
-                    {
-
-                        avgTime[item2.name] = item2.time;
-                        avgCount[item2.name] = 1;
-                    }
-                    else
-                    {
-                        avgTime[item2.name] += item2.time;
-                        avgCount[item2.name]++;
-                    }
+                            avgTime[item2.name] = item2.time;
+                            avgCount[item2.name] = 1;
+                        }
+                        else
+                        {
+                            avgTime[item2.name] += item2.time;
+                            avgCount[item2.name]++;
+                        }
                 }
             }
 
