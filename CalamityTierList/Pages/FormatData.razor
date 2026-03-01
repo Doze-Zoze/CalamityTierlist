@@ -2,6 +2,7 @@
 
 @using CalamityTierList.Data;
 @using System.Text.Json;
+@inject HttpClient Http
 <PageTitle>Format Test Data</PageTitle>
 
 
@@ -11,8 +12,13 @@
             <a class="boxTitle">Test Details</a>
             <span class="wrapper">
                 <label class="label" for="weaponName">Weapon*</label>
-                <input name="searchTxt" type="text" maxlength="512" id="weaponName" @bind="@testData.weapon" class=" inputField" />
-                @*<select name="WeaponSelect" id="weaponName" class="dropdown"></select>*@
+                <select name="WeaponSelect" id="weaponName" class="dropdown" @bind="@testData.weapon">
+                    <option value=""></option>
+                    @foreach (var weap in Data.WeaponsAlphabetical)
+                    {
+                        <option value="@weap.Name">@weap.Name</option>
+                    }
+                </select>
             </span>
             <span class="wrapper">
                 <label class="label" for="weaponDamage"> Tester*</label>
@@ -101,5 +107,11 @@
     void AddNewBoss()
     {
         testData.bosses.Add(new());
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await Data.LoadTestData(Http);
+        await Data.LoadWeaponTSV(Http);
     }
 }

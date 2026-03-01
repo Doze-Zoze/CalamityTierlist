@@ -1,0 +1,4897 @@
+[
+    {
+        "Name": "Burnt Sienna",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Driftwood Sword",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Feller of Evergreens",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Monstrous Knives",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wulfrum Screwdriver",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Acidwood Bow",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Driftwood Bow",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Spark Spreader",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wulfrum Blunderbuss",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Frost Bolt",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Icicle Staff",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Veering Wind",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wulfrum Prosthesis",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Enchanted Knife Staff",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Frost Blossom Staff",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Rusty Beacon Prototype",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Squirrel Squire Staff",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stormjaw Staff",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sun Spirit Staff",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wulfrum Controller",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Antlion Skewer",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Contaminated Bile",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Crystalline",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Gilded/Gleaming Dagger",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Iron Francisca/Lead Tomahawk",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Kylie",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nasty Cholla",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Throwing Brick",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Urchin Stinger",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Web Ball",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wulfrum Knife",
+        "Tier": "Pre-Boss",
+        "Vanilla": false
+    },
+    {
+        "Name": "Artery",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ball O\u0027 Hurt",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bat Bat",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Blood Butcherer",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bloody Machete",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bone Sword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Boreal Wood Sword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Breathing Reed",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bladed Glove",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Cactus Sword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Candy Cane Sword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Chain Knife",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Copper Broadsword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Copper Shortsword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ebonwood Sword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Enchanted Boomerang",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Enchanted Sword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Exotic Scimitar",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Falcon Blade",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flaming Mace",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flymeal",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Fruitcake Chakram",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Gladius",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Gold Broadsword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Gold Shortsword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ice Blade",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ice Boomerang",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Iron Broadsword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Iron Shortsword",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Katana",
+        "Tier": "Pre-Boss",
+        "Vanilla": true
+    },
+    {
+        "Name": "Riptide",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sahara Slicers",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Seashine Sword",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Urchin Mace",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Barinade",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Reed Blowgun",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shellshooter",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Storm Surge",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Aquamarine Staff",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Coral Spout",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sandstream Scepter",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sparkling Empress",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Waywasher",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Brittle Star Staff",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cnidarian",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Enchanted Conch",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Polyp Launcher",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Fishbone Boomerang",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sand Dollar",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Scourge of the Desert",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Seafoam Bomb",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Snap Clam",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Trimarang",
+        "Tier": "Post-Desert Scourge",
+        "Vanilla": true
+    },
+    {
+        "Name": "Teardrop Cleaver",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Yateveo Bloom",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Crackshot Colt",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Pumpler",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Toxibow",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Acid Gun",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mana Rose",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Parasitic Scepter",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Plasma Rod",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sky Glaze",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Belladonna Spirit Staff",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Caustic Croaker Staff",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Deathstare Rod",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Harvest Staff",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Bouncing Eyeball",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Pumpkaboom",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Spore Knife",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": false
+    },
+    {
+        "Name": "Amazon",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Axe of Regrowth",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Blade of Grass",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Code 1",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ruler",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Thorn Chakram",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Blood Rain Bow",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Boomstick",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Harpoon",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Spiky Ball",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Gray Zapinator",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Snapthorn",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Vampire Frog Staff",
+        "Tier": "Post-Eye of Cthulhu",
+        "Vanilla": true
+    },
+    {
+        "Name": "Fungicide",
+        "Tier": "Post-Crabulon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hyphae Rod",
+        "Tier": "Post-Crabulon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Puff Shroom",
+        "Tier": "Post-Crabulon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Infested Clawmerang",
+        "Tier": "Post-Crabulon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mycoroot",
+        "Tier": "Post-Crabulon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Old Lord Claymore",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Smoking Comet",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tainted Blade",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Firestorm Cannon",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Magna Cannon",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Opal Striker",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flare Bolt",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hellwing Staff",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Cauldron",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cinder Blossom Staff",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Scab Ripper",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vile Feeder",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ashen Stalactite",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Infernal Kris",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Meteor Fist",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sludge Splotch",
+        "Tier": "Post-Evils1",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ash Wood Sword",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flamarang",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Phaseblades",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "The Meatball",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Volcano",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ale Tosser",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ash Wood Bow",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Molten Fury",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Star Cannon",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Demon Scythe",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Space Gun",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ballista Rod",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Explosive Trap Rod",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flameburst Rod",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Imp Staff",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Lightning Aura Rod",
+        "Tier": "Post-Evils1",
+        "Vanilla": true
+    },
+    {
+        "Name": "Aorta",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Broken Biome Blade: Arid Grandeur",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Broken Biome Blade: Biting Embrace",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Broken Biome Blade: Decay\u0027s Retort",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Broken Biome Blade: Pure Clarity",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Broken Biome Blade: Unattuned",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Goldplume Spear",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Perfect Dark",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "P-GSS: Auger",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sausage Maker",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vein Burster",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wind Blade",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Aquashard Shotgun",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Bullet-Filled Shotgun",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Eviscerator",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Galeforce",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "P-TSL: Short Circuit",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shadethrower",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Blood Bath",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "P-PLS: Pulse Pistol",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shaderain Staff",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tradewinds",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dank Staff",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flesh of Infidelity",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "P-PMA: Aqueous Hunter Drone",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Feather Knife",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "P-LSR: Aerial Tracker",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Rot Ball",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tooth Ball",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Turbulance",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Aestheticus",
+        "Tier": "Post-Evils2",
+        "Vanilla": false
+    },
+    {
+        "Name": "Bee Keeper",
+        "Tier": "Post-Queen Bee",
+        "Vanilla": true
+    },
+    {
+        "Name": "Hive-Five",
+        "Tier": "Post-Queen Bee",
+        "Vanilla": true
+    },
+    {
+        "Name": "Beenade",
+        "Tier": "Post-Queen Bee",
+        "Vanilla": true
+    },
+    {
+        "Name": "Blowgun",
+        "Tier": "Post-Queen Bee",
+        "Vanilla": true
+    },
+    {
+        "Name": "The Bee\u0027s Knees",
+        "Tier": "Post-Queen Bee",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bee Gun",
+        "Tier": "Post-Queen Bee",
+        "Vanilla": true
+    },
+    {
+        "Name": "Hornet Staff",
+        "Tier": "Post-Queen Bee",
+        "Vanilla": true
+    },
+    {
+        "Name": "Lucy the Axe",
+        "Tier": "Post-Deerclops",
+        "Vanilla": true
+    },
+    {
+        "Name": "Pew-matic Horn",
+        "Tier": "Post-Deerclops",
+        "Vanilla": true
+    },
+    {
+        "Name": "Weather Pain",
+        "Tier": "Post-Deerclops",
+        "Vanilla": true
+    },
+    {
+        "Name": "Houndius Shootius",
+        "Tier": "Post-Deerclops",
+        "Vanilla": true
+    },
+    {
+        "Name": "Depth Crusher",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Archerfish",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dragoon Drizzlefish",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flurrystorm Cannon",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "M1 Garand",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Slagfire Douser",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Abyss Shocker",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Black Anurian",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Herring Staff",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Staff of Necrosteocytes",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cinquedea",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Enchanted Axe",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Glaive",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lionfish",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Metal Monstrosity",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shinobi Blade",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Slick Cane",
+        "Tier": "Post-Skeletron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Blue Moon",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Cascade",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Combat Wrench",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Dark Lance",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Muramasa",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Sunfury",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Tragic Umbrella",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Valor",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bone",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Handgun",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Hellwing Bow",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Phoenix Blaster",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Quad-Barrel Shotgun",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Aqua Scepter",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Book of Skulls",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flamelash",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flower of Fire",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Magic Missile",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Water Bolt",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Spinal Tap",
+        "Tier": "Post-Skeletron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Gelitic Blade",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "The God\u0027s Gambit",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Goobow",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Gunk Shot",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lunarian Bow",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Overloaded Blaster",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Abyssal Tome",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Eldritch Tome",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Night\u0027s Ray",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Corroslime/Crimslime Staff",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Eye of Night",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Slime Puppet Staff",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Gel Dart",
+        "Tier": "Post-Slime God",
+        "Vanilla": false
+    },
+    {
+        "Name": "Night\u0027s Edge",
+        "Tier": "Post-Slime God",
+        "Vanilla": true
+    },
+    {
+        "Name": "Carnage",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Caustic Edge",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Celestial Claymore",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Clam Crusher",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Comet Quasher",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Earthen Pike",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Evil Smasher",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Monolith Sword",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Roxcalibur",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Storm Saber",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Dark Master",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Yin-Yo",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Clamor Rifle",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flarewing Bow",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Meowthrower",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Midas Prime",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Monolith Bow",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Needler",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nitro Express Rifle",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "P90",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Polaris Parrotfish",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Slag Magnum",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Thermocline Blaster",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Clothier\u0027s Wrath",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Death Valley Duster",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Frigidflash Bolt",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Glorious End",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Poseidon",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Serpentine",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ancient Ice Chunk",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Black Hawk Remote",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Caustic Staff",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Haunted Scroll",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shellfish Staff",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Blast Barrel",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Blazing Star",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Burning Strife",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cobalt Kunai",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cursed Dagger",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Equanimity",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Gacruxian Mollusk",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ichor Spear",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Palladium Javelin",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Prismalline",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wave Skipper",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lunic Eye",
+        "Tier": "Hardmode",
+        "Vanilla": false
+    },
+    {
+        "Name": "Amarok",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Anchor",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bananarang",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Beam Sword",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bladetongue",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Breaker Blade",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Chain Guillotines",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Chik",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Classy Cane",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Cobalt Naginata",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Cobalt Sword",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Cutlass",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Dao of Pow",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Drippler Crippler",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Fetid Baghnakhs",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flying Knife",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Format:C",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Frostbrand",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Gradient",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ham Bat",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Hel-Fire",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ice Sickle",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Jousting Lance",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "KO Cannon",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Obsidian Swordfish",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Palladium Pike",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Palladium Sword",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Pearlwood Sword",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Sergeant United Shield",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Shadowflame Knife",
+        "Tier": "Hardmode",
+        "Vanilla": true
+    },
+    {
+        "Name": "Blade Staff",
+        "Tier": "Post-Queen Slime",
+        "Vanilla": true
+    },
+    {
+        "Name": "Majestic Guard",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Brimstone Fury",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Deepcore GK2",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Speed Blaster",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Brimrose Staff",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Burning Sea",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "SHPC",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wyvern\u0027s Call",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Igneous Exaltation",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tundra Flame Blossoms Staff",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Brimblade",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mythril Knife",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Orichalcum Spiked Gemstone",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stormfront Razor",
+        "Tier": "Post-1 Mech",
+        "Vanilla": false
+    },
+    {
+        "Name": "Arkhalis",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Brand of the Inferno",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Code 2",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ghastly Glaive",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Mushroom Spear",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Mythril Halberd",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Mythril Sword",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Orichalcum Halberd",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Orichalcum Sword",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Phasesabers",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Red\u0027s Throw",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Sleepy Octopod",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Valkyrie Yoyo",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Yelets",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Mythril Repeater",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Onyx Blaster",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Orichalcum Repeater",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Phantom Phoenix",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Sky Fracture",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Tome of Infinite Wisdom",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Unholy Trident",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ballista Cane",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Explosive Trap Cane",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flameburst Cane",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Lightning Aura Cane",
+        "Tier": "Post-1 Mech",
+        "Vanilla": true
+    },
+    {
+        "Name": "Arbalest",
+        "Tier": "Post-Twins",
+        "Vanilla": false
+    },
+    {
+        "Name": "R-PLS: Pulse Grenade",
+        "Tier": "Post-Twins",
+        "Vanilla": false
+    },
+    {
+        "Name": "Magical Harp",
+        "Tier": "Post-Twins",
+        "Vanilla": true
+    },
+    {
+        "Name": "Rainbow Rod",
+        "Tier": "Post-Twins",
+        "Vanilla": true
+    },
+    {
+        "Name": "Optic Staff",
+        "Tier": "Post-Twins",
+        "Vanilla": true
+    },
+    {
+        "Name": "Megashark",
+        "Tier": "Post-Destroyer",
+        "Vanilla": true
+    },
+    {
+        "Name": "Inferna Cutter",
+        "Tier": "Post-Skeletron Prime",
+        "Vanilla": false
+    },
+    {
+        "Name": "Buzzkill",
+        "Tier": "Post-Skeletron Prime",
+        "Vanilla": false
+    },
+    {
+        "Name": "R-PMA: Holofiber Immolator",
+        "Tier": "Post-Skeletron Prime",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mounted Scanner",
+        "Tier": "Post-Skeletron Prime",
+        "Vanilla": false
+    },
+    {
+        "Name": "Grave Grimreaver",
+        "Tier": "Post-Skeletron Prime",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flamethrower",
+        "Tier": "Post-Skeletron Prime",
+        "Vanilla": true
+    },
+    {
+        "Name": "Frostbite Blaster",
+        "Tier": "Post-Cryogen",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hoarfrost Bow",
+        "Tier": "Post-Cryogen",
+        "Vanilla": false
+    },
+    {
+        "Name": "Icicle Trident",
+        "Tier": "Post-Cryogen",
+        "Vanilla": false
+    },
+    {
+        "Name": "Snowstorm Staff",
+        "Tier": "Post-Cryogen",
+        "Vanilla": false
+    },
+    {
+        "Name": "Glacial Embrace",
+        "Tier": "Post-Cryogen",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ice Star",
+        "Tier": "Post-Cryogen",
+        "Vanilla": false
+    },
+    {
+        "Name": "Icebreaker",
+        "Tier": "Post-Cryogen",
+        "Vanilla": false
+    },
+    {
+        "Name": "Kelvin Catalyst",
+        "Tier": "Post-Cryogen",
+        "Vanilla": false
+    },
+    {
+        "Name": "Submarine Shocker",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sulphurous Grabber",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Barinautical",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Corroded Caustibow",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flak Toxicannon",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sea\u0027s Searing",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Belching Saxophone",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Downpour",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Miasma",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Slithering Eels",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Deepsea Staff",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Orthocera Shell",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Scourge of the Seas",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Skyfin Bombers",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Spent Fuel Container",
+        "Tier": "Post-Aquatic Scourge",
+        "Vanilla": false
+    },
+    {
+        "Name": "Adamantite Particle Accelerator",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mineral Mortar",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Titanium Railgun",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ion Blaster",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Relic of Ruin",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Forgotten Apex Wand",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Adamantite Throwing Axe",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Consecrated Water",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Desecrated Water",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Spear of Paleolith",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Titanium Shuriken",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Adamantite Glaive",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Adamantite Sword",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Titanium Sword",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Titanium Trident",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Adamantite Repeater",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Titanium Repeater",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Spirit Flame",
+        "Tier": "Post-2 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Hellborn",
+        "Tier": "Post-Brimstone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Seething Discharge",
+        "Tier": "Post-Brimstone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dormant Brimseeker",
+        "Tier": "Post-Brimstone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flarefrost Blade",
+        "Tier": "Post-2 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shimmerspark",
+        "Tier": "Post-2 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Starnight Lance",
+        "Tier": "Post-2 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Darkecho Greatbow",
+        "Tier": "Post-2 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shadecrystal Barrage",
+        "Tier": "Post-2 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Daedalus Golem Staff",
+        "Tier": "Post-2 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Crystal Piercer",
+        "Tier": "Post-2 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Biome Blade: Biting Embrace",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Biome Blade: Decay\u0027s Retort",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Biome Blade: Grovetender\u0027s Touch",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Biome Blade: Heaven\u0027s Might",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Biome Blade: Pure Clarity",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Biome Blade: Unattuned",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Pwnagehammer",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Gleaming Magnolia",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Valkyrie Ray",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vengeful Sun Staff",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Exorcism",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Spear of Destiny",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Terror Talons",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": false
+    },
+    {
+        "Name": "Chlorophyte Claymore",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Chlorophyte Partisan",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Chlorophyte Saber",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Death Sickle",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Excalibur",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Gungnir",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Hallowed Jousting Lance",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Light Disc",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "True Excalibur",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "True Night\u0027s Edge",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Waffle\u0027s Iron",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Chlorophyte Shotbow",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Hallowed Repeater",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Pulse Bow",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Super Star Shooter",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Venom Staff",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Durendal",
+        "Tier": "Post-3 Mechs",
+        "Vanilla": true
+    },
+    {
+        "Name": "Cryophobia",
+        "Tier": "Post-3 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cryogenic Staff",
+        "Tier": "Post-3 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Frosty Flare",
+        "Tier": "Post-3 Mechs \u002B Cryo",
+        "Vanilla": false
+    },
+    {
+        "Name": "Oblivion",
+        "Tier": "Post-Cal Clone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Animosity",
+        "Tier": "Post-Cal Clone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Havoc\u0027s Breath",
+        "Tier": "Post-Cal Clone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Art Attack",
+        "Tier": "Post-Cal Clone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lashes of Chaos",
+        "Tier": "Post-Cal Clone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Entropy\u0027s Vigil",
+        "Tier": "Post-Cal Clone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Crushsaw Crasher",
+        "Tier": "Post-Cal Clone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Deep Wounder",
+        "Tier": "Post-Cal Clone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Totality Breakers",
+        "Tier": "Post-Cal Clone",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ark of the Ancients",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Blighted Cleaver",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Botanic Piercer",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Feralthorn Claymore",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hellion Flower Spear",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hellkite",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mantis Claws",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Quagmire",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tumbleweed",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Arc Nova Diffuser",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Arietes 41",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Bladedge Railbow",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Blossom Flux",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hydra",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Marksman Bow",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sandblaster",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Ballista",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vernal Bolter",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wildfire Bloom",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Everglade Spray",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Photosynthesis",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Primordial Earth",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shifting Sands",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tears of Heaven",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Amphibian\u0027s Guitar",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Plantation Staff",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sand Sharknado Staff",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Viral Sprout",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Defective Sphere",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Duststorm in a Bottle",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Fantasy Talisman",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Frostcrush Valari",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mangrove Chakram",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Phantasmal Ruin",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Samsara Slicer",
+        "Tier": "Post-Plantera",
+        "Vanilla": false
+    },
+    {
+        "Name": "Butcher\u0027s Chainsaw",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flower Pow",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Keybrand",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Kraken",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Paladin\u0027s Hammer",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Psycho Knife",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Scourge of the Corruptor",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Seedler",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Shadow Jousting Lance",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Terra Blade",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "The Eye of Cthulhu",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Vampire Knives",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Grenade Launcher",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Nail Gun",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Piranha Gun",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Proximity Mine Launcher",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Rocket Launcher",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Sniper Rifle",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Tactical Shotgun",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Venus Magnum",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Inferno Fork",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Leaf Blower",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Magnet Sphere",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Nettle Burst",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Rainbow Gun",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Resonance Scepter",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Shadowbeam Staff",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Spectre Staff",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Toxic Flask",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Wasp Gun",
+        "Tier": "Post-Plantera",
+        "Vanilla": true
+    },
+    {
+        "Name": "Nebulash",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Titan Arm",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Aurora Blazer",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stellar Cannon",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Alula Australis",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Astralachnea Staff",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Abandoned Slime Staff",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Borealis Bomber",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hive Pod",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Auroradical Throw",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Heavenfallen Stardisk",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Leonid Progenitor",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stellar Knife",
+        "Tier": "Post-Aureus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Floodtide",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Greentide",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Typhon\u0027s Greed",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flak Kraken",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Leviatitan",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Megalodon",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Anahita\u0027s Arpeggio",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Atlantis",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hadal Urn",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Keelhaul",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Undine\u0027s Retribution",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dreadmine Staff",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Gastric Belcher Staff",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Apoctolith",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ballistic Poison Bomb",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Leviathan Teeth",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Whitewater",
+        "Tier": "Post-Levi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Aegis Blade",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Exalted Oathblade",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Fallen Paladin\u0027s Hammer",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Fault Line",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hellfire Flamberge",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lucrecia",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Omniblade",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Soul Harvester",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stygian Shield",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vulcanite Lance",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Continental Greatbow",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Eternal Blizzard",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Helstorm",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nullification Pistol",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Rubico Prime",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Forbidden Sun",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Infernal Rift",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wingman",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Winter\u0027s Fury",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Resurrection Butterfly",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wither Blossoms Staff",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Doomsday Device",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Epidemic Shredder",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Plaguenade",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Subduction Slicer",
+        "Tier": "Post-Golem",
+        "Vanilla": false
+    },
+    {
+        "Name": "Christmas Tree Sword",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Flying Dragon",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Golem Fist",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Influx Waver",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "North Pole",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Possessed Hatchet",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Sky Dragon\u0027s Fury",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "The Horseman\u0027s Blade",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Aerial Bane",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Candy Corn Rifle",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Celebration",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Chain Gun",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Electrosphere Launcher",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Elf Melter",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Jack \u0027O Lantern Launcher",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Snowman Cannon",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Stake Launcher",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Stynger",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Xenopopper",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bat Scepter",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Betsy\u0027s Wrath",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Blizzard Staff",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Charged Blaster Cannon",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Heat Ray",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Laser Machinegun",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Razorpine",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Staff of Earth",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Ballista Staff",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Dark Harvest",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Explosive Trap Staff",
+        "Tier": "Post-Golem",
+        "Vanilla": true
+    },
+    {
+        "Name": "Pandemic",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Virulence",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Blight Spewer",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "B-GSS: Nidhogg",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Malevolence",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Pestilent Defiler",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Plague Tainted SMG",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Hive",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "B-LSR: Countermeasure Mitt",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Plague Staff",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Fuel Cell Bundle",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Infected Remote",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Pulse Turret Remote",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Malachite",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "System Bane",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Syringe",
+        "Tier": "Post-PBG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Starlight",
+        "Tier": "Post-EoL",
+        "Vanilla": true
+    },
+    {
+        "Name": "Eventide",
+        "Tier": "Post-EoL",
+        "Vanilla": true
+    },
+    {
+        "Name": "Nightglow",
+        "Tier": "Post-EoL",
+        "Vanilla": true
+    },
+    {
+        "Name": "Stellar Tune",
+        "Tier": "Post-EoL",
+        "Vanilla": true
+    },
+    {
+        "Name": "Kaleidoscope",
+        "Tier": "Post-EoL",
+        "Vanilla": true
+    },
+    {
+        "Name": "Terraprisma",
+        "Tier": "Post-EoL",
+        "Vanilla": true
+    },
+    {
+        "Name": "Duke\u0027s Decapitator",
+        "Tier": "Post-Duke Fishron",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flairon",
+        "Tier": "Post-Duke Fishron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Tsunami",
+        "Tier": "Post-Duke Fishron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Bubble Gun",
+        "Tier": "Post-Duke Fishron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Razorblade Typhoon",
+        "Tier": "Post-Duke Fishron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Tempest Staff",
+        "Tier": "Post-Duke Fishron",
+        "Vanilla": true
+    },
+    {
+        "Name": "Realm Ravager",
+        "Tier": "Post-Ravager",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hematemesis",
+        "Tier": "Post-Ravager",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vesuvius",
+        "Tier": "Post-Ravager",
+        "Vanilla": false
+    },
+    {
+        "Name": "Spikecrag Staff",
+        "Tier": "Post-Ravager",
+        "Vanilla": false
+    },
+    {
+        "Name": "Corpus Avertor",
+        "Tier": "Post-Ravager",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cranium Smasher",
+        "Tier": "Post-Ravager",
+        "Vanilla": false
+    },
+    {
+        "Name": "Entropic Claymore",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Grand Guardian",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Respiteblock",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Storm Ruler",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tenebreus Tides",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Conference Call",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dead Sun\u2019s Wind",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Scorpio",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shroomer",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Spectralstorm Cannon",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vortexpopper",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Apathanull",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Apoctosis Array",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Arch Amaryllis",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Plasma Rifle",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Swarmer",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shard of Antumbra",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Star of Destruction",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Eye of Magnus",
+        "Tier": "Post-Cultist",
+        "Vanilla": false
+    },
+    {
+        "Name": "Daybreak",
+        "Tier": "Post-Cultist",
+        "Vanilla": true
+    },
+    {
+        "Name": "Solar Eruption",
+        "Tier": "Post-Cultist",
+        "Vanilla": true
+    },
+    {
+        "Name": "Phantasm",
+        "Tier": "Post-Cultist",
+        "Vanilla": true
+    },
+    {
+        "Name": "Vortex Beater",
+        "Tier": "Post-Cultist",
+        "Vanilla": true
+    },
+    {
+        "Name": "Nebula Arcanum",
+        "Tier": "Post-Cultist",
+        "Vanilla": true
+    },
+    {
+        "Name": "Nebula Blaze",
+        "Tier": "Post-Cultist",
+        "Vanilla": true
+    },
+    {
+        "Name": "Stardust Cell Staff",
+        "Tier": "Post-Cultist",
+        "Vanilla": true
+    },
+    {
+        "Name": "Stardust Dragon Staff",
+        "Tier": "Post-Cultist",
+        "Vanilla": true
+    },
+    {
+        "Name": "The Microwave",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "True Biome Blade: Lamentations of the Chained",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "True Biome Blade: Earthen Tides",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "True Biome Blade: Sanguine Fury",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "True Biome Blade: Swordsmith\u0027s Pride",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "True Biome Blade: Unattuned",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Astral Blaster",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Star Sputter",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Astral Staff",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Star Shower",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Starspawn Helix Staff",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Radiant Star",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Regulus Riot",
+        "Tier": "Post-Deus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Greatsword of Judgement",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lightspeed",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Rem\u0027s Revenge",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Solstice Claymore",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stellar Contempt",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stellar Striker",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Swordsplosion",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vanishing Point",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Astreal Defeat",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Barracuda Gun",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Chromatic Eruption",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Clockwork Bow",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Onyx Chain Blaster",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Planetary Annihilation",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Prideful Hunter\u0027s Planar Ripper",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shredder",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Superradiant Slaughterer",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Augur of the Void",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Chronomancer\u0027s Scythe",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cosmic Rainbow",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Effervescence",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Genesis",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mad Alchemist\u0027s Cocktail Glove",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nuclear Fury",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nucleosynthesis",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ultra Liquidator",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Unstable Caster\u0027s Gauntlet",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flowers of Mortality",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Legion of Celestia",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sanctified Spark",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tactical Plague Engine",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Celestial Reaper",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lunar Kunai",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Profaned Partisan",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Rebounding Rainbow",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Utensil Poker",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": false
+    },
+    {
+        "Name": "Meowmere",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": true
+    },
+    {
+        "Name": "Star Wrath",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": true
+    },
+    {
+        "Name": "Terrarian",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": true
+    },
+    {
+        "Name": "Celebration Mk2",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": true
+    },
+    {
+        "Name": "S.D.M.G.",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": true
+    },
+    {
+        "Name": "Last Prism",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": true
+    },
+    {
+        "Name": "Lunar Flare",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": true
+    },
+    {
+        "Name": "Lunar Portal Staff",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": true
+    },
+    {
+        "Name": "Rainbow Crystal Staff",
+        "Tier": "Post-Moon Lord ",
+        "Vanilla": true
+    },
+    {
+        "Name": "Golden Eagle",
+        "Tier": "Post-Dragonfolly",
+        "Vanilla": false
+    },
+    {
+        "Name": "Rouge Slash",
+        "Tier": "Post-Dragonfolly",
+        "Vanilla": false
+    },
+    {
+        "Name": "Defiled Greatsword",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Devil\u0027s Sunrise",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Galactus Blade",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Grax",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Holy Collider",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lacerator",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lifehunt Scythe",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mourningstar",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Pulse Dragon",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Seeking Scorcher",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Terratomere",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Mutilator",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Angelic Shotgun",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Arterial Assault",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Auralis",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Blissful Bombardier",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Blood Boiler",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Freedom Star",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Handheld Tank",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nettlevine Greatbow",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Pristine Fury",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Spyker",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Telluric Glare",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "W-LSR: Phalanx Surge",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Biofusillade",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nano Purge",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Plasma Caster",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Purge Guzzler",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Recitation of the Beast",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sanguine Flare",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Prince",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Thorn Blossom",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Viscera",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dazzling Stabber Staff",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dragonblood Disgorger",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Guidelight of Oblivion",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Snake Eyes",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Virid Vanguard",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Bloodsoaked Crasher",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Molten Amputator",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shattered Dawn",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tarragon Throwing Dart",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wave Pounder",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Claret Cannon",
+        "Tier": "Post-Provi",
+        "Vanilla": false
+    },
+    {
+        "Name": "Corinth Prime",
+        "Tier": "Post-Storm Weaver",
+        "Vanilla": false
+    },
+    {
+        "Name": "Seadragon",
+        "Tier": "Post-Storm Weaver",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Storm",
+        "Tier": "Post-Storm Weaver",
+        "Vanilla": false
+    },
+    {
+        "Name": "Teslastaff",
+        "Tier": "Post-Storm Weaver",
+        "Vanilla": false
+    },
+    {
+        "Name": "Volterion",
+        "Tier": "Post-Storm Weaver",
+        "Vanilla": false
+    },
+    {
+        "Name": "Aqua\u0027s Scepter",
+        "Tier": "Post-Storm Weaver",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stellar Torus Staff",
+        "Tier": "Post-Storm Weaver",
+        "Vanilla": false
+    },
+    {
+        "Name": "Twisting Thunder",
+        "Tier": "Post-Storm Weaver",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ontological Despoiler",
+        "Tier": "Post-Ceaseless Void",
+        "Vanilla": false
+    },
+    {
+        "Name": "Event Horizon",
+        "Tier": "Post-Ceaseless Void",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mistlestorm",
+        "Tier": "Post-Ceaseless Void",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tactician\u0027s Trump Card",
+        "Tier": "Post-Ceaseless Void",
+        "Vanilla": false
+    },
+    {
+        "Name": "Void Concentration Staff",
+        "Tier": "Post-Ceaseless Void",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sealed Singularity",
+        "Tier": "Post-Ceaseless Void",
+        "Vanilla": false
+    },
+    {
+        "Name": "Grand Dad",
+        "Tier": "Post-Signus",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Sevens Striker",
+        "Tier": "Post-Signus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Aether\u0027s Whisper",
+        "Tier": "Post-Signus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Magnetic Meltdown",
+        "Tier": "Post-Signus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cosmilamp",
+        "Tier": "Post-Signus",
+        "Vanilla": false
+    },
+    {
+        "Name": "King of Constellations, Tenryu",
+        "Tier": "Post-Signus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cosmic Kunai",
+        "Tier": "Post-Signus",
+        "Vanilla": false
+    },
+    {
+        "Name": "Galaxia: Aries\u0027 Wrath",
+        "Tier": "Post-Sentinels",
+        "Vanilla": false
+    },
+    {
+        "Name": "Galaxia: Phoenix\u0027s Pride",
+        "Tier": "Post-Sentinels",
+        "Vanilla": false
+    },
+    {
+        "Name": "Galaxia: Polaris\u0027 Gaze",
+        "Tier": "Post-Sentinels",
+        "Vanilla": false
+    },
+    {
+        "Name": "Reality Rupture",
+        "Tier": "Post-Sentinels",
+        "Vanilla": false
+    },
+    {
+        "Name": "Crescent Moon",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Death\u0027s Ascension",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Galileo Gladius",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lion Heart",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Neptune\u0027s Bounty",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Phosphorescent Gauntlet",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Terror Blade",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Last Mourning",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Void Edge",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Daemon\u0027s Flame",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Halley\u0027s Inferno",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Monsoon",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Pearl God",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Starfleet",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sulphuric Acid Cannon",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tau Cannon",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Maelstrom",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Alpha Draconis",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dark Spark",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Eidolic Wail",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Eidolon Staff",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Fate\u0027s Reveal",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ghastly Visage",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Phantasmal Fury",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Shadowbolt Staff",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Venusian Trident",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Calamari\u0027s Lament",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ethereal Subjugator",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Gamma Heart",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sirius",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Warloks\u0027 Moon Fist",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Deep Sea Dumbbell",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ghoulish Gouger",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Jaws of Oblivion",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Time Bolt",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Valediction",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vega",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stratus Sphere",
+        "Tier": "Post-Polterghast",
+        "Vanilla": false
+    },
+    {
+        "Name": "Fetid Emesis",
+        "Tier": "Post-Old Duke",
+        "Vanilla": false
+    },
+    {
+        "Name": "Septic Skewer",
+        "Tier": "Post-Old Duke",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vitriolic Viper",
+        "Tier": "Post-Old Duke",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cadaverous Carrion",
+        "Tier": "Post-Old Duke",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mutated Truffle",
+        "Tier": "Post-Old Duke",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Old Reaper",
+        "Tier": "Post-Old Duke",
+        "Vanilla": false
+    },
+    {
+        "Name": "Toxicant Twister",
+        "Tier": "Post-Old Duke",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cosmic Shiv",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Devil\u0027s Devastation",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Essence Flayer",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Galaxy Smasher",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Maw of Infinity",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Murasama",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Phaseslayer",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Scourge of the Cosmos",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Stream Gouge",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Obliterator",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Alluvion",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Anti-materiel Rifle",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "A-PLS: Pulse Rifle",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cleansing Blaze",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Infinity",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Karasawa",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Norfleet",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Onyxia",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Riftburst",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Scorched Earth",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "SDFMG",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Starmageddon",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Anomaly\u0027s Nanogun",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Pack",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Thread of Eradication",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ultima",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Universal Genesis",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Face Melter",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hyperdeath Rift Scepter",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ice Barrage",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Light God\u0027s Brilliance",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nebulous Cataclysm",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Omicron",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Primordial Ancient",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Soul Piercer",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tesla Cannon",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Voltaic Climax",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Corvid Harbinger Staff",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cosmic Viper Engine",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Endo Hydra Staff",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Mirror of Kalandra",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Pole Warper",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Void Eater Marionette",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dimension-Tearing Disk",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Eclipse\u0027s Fall",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Executioner\u0027s Blade",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Gods\u0027 Paranoia",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Hypothermia",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Penumbra",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Plasma Grenade",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Prismatic Breaker",
+        "Tier": "Post-DoG",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ataraxia",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dragon Pow",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dragon Rage",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nadir",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Orderbringer",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Burning Sky",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Oracle",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ace\u0027s High",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Chicken Cannon",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dragon\u0027s Breath",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Drataliornus",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Kingsbane",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Starmada",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Tyranny\u0027s End",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Aetherflux Cannon",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Helium Flash",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Phoenix Flame Barrage",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Wand",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Void Vortex",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Yharim\u0027s Crystal",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Lilies of Finality",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Midnight Sun Beacon",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Saros Possession",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Yharon\u0027s Kindle Staff",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Dynamic Pursuer",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Seraphim",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Final Dawn",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Wrathwing",
+        "Tier": "Post-Yharon",
+        "Vanilla": false
+    },
+    {
+        "Name": "Zenith",
+        "Tier": "Post-Yharon",
+        "Vanilla": true
+    },
+    {
+        "Name": "Violence",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Condemnation",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Gruesome Eminence",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Heresy",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Rancor",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vehemence",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cinders of Lament",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Metastasis",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Perdition",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vigilance",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sacrifice",
+        "Tier": "Post-SCal",
+        "Vanilla": false
+    },
+    {
+        "Name": "Photon Ripper",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Spine of Thanatos",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Heavenly Gale",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Magnomaly Cannon",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Photoviscerator",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Surge Driver",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Jailor",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Subsuming Vortex",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Vivid Clarity",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ares\u0027 Exoskeleton",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Atlas Munitions Beacon",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Cosmic Immaterializer",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Celestus",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Refraction Rotor",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Supernova",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Atom Splitter",
+        "Tier": "Post-Exos",
+        "Vanilla": false
+    },
+    {
+        "Name": "Earth",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Illustrious Knives",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Ozzathoth",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Red Sun",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Triactis\u0027 Hammer",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Contagion",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Halibut Cannon",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Soma Prime",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Svantechnical",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Voidragon",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Apotheosis",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Eternity",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Rainbow Party Cannon",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Staff of Blushie",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Sylvestaff",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "The Dance of Light",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Endogenesis",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Flamsteed Ring",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Temporal Umbrella",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Universe Splitter",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Nanoblack Reaper",
+        "Tier": "Endgame",
+        "Vanilla": false
+    },
+    {
+        "Name": "Scarlet Devil",
+        "Tier": "Endgame",
+        "Vanilla": false
+    }
+]

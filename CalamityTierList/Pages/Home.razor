@@ -24,9 +24,12 @@
     {
         <tr>
             <td>
-                <div style="display:flex;flex-direction:column;justify-content:center;">
-                        <img src="@($"https://calamitymod.wiki.gg/images/{test.ItemName.Replace(" ","_")}.png")" style="max-width: 64px" />
-                            @test.ItemName
+                <div style="display:flex;flex-direction:column;justify-content:center;justify-items:center;">
+                    @{
+                            var currentWeapon = Data.LoadedWeapons.First(x => x.Name == test.ItemName);
+                                <img src="@( !string.IsNullOrWhiteSpace(currentWeapon.ImageOverride) ? currentWeapon.ImageOverride : currentWeapon.Vanilla ? $"https://terraria.wiki.gg/images/{test.ItemName.Replace(" ","_")}.png" : $"https://calamitymod.wiki.gg/images/{test.ItemName.Replace(" ","_")}.png")" style="max-width: 48px; margin:auto" />
+                    }
+                            <span style="margin:auto; text-align:center">@test.ItemName</span>
                         </div>
                 </td>
                     <td>
@@ -72,13 +75,14 @@
     {
         get
         {
-            return JsonSerializer.Serialize(Data.LoadedData, new JsonSerializerOptions { WriteIndented = true, DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull });
+            return JsonSerializer.Serialize(Data.LoadedWeapons, new JsonSerializerOptions { WriteIndented = true, DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull });
         }
     }
 
     protected override async Task OnInitializedAsync()
     {
         await Data.LoadTestData(Http);
+        await Data.LoadWeaponTSV(Http);
     }
 
 }
