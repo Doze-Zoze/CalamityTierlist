@@ -48,11 +48,22 @@ public class AggregateTestData
     public Dictionary<string, int> AverageTimes = new();
     public List<TestData> Tests = new();
 }
+
+public struct WeaponData
+{
+    public string Name { get; set; }
+    public string Tier { get; set; }
+    public bool Vanilla { get; set; }
+    public string ImageOverride { get; set; }
+}
 public static class Data
 {
 
     public static List<AggregateTestData> aggregateTests = new();
     public static List<TestData> LoadedData = new();
+    public static List<WeaponData> LoadedWeapons = new();
+
+    public static List<WeaponData> WeaponsAlphabetical => LoadedWeapons.OrderBy(x => x.Name).ToList();
     public async static Task LoadTestData(HttpClient http)
     {
         if (LoadedData.Count > 0)
@@ -115,6 +126,43 @@ public static class Data
         }
     }
 
+    public async static Task LoadWeaponTSV(HttpClient http)
+    {
+
+        if (LoadedWeapons.Count > 0)
+            return;
+
+        LoadedWeapons = await http.GetFromJsonAsync<List<WeaponData>>("WeaponProgression.json") ?? new();
+
+        if (LoadedWeapons.Count > 0)
+            return;
+
+        var tsvstring = await http.GetStringAsync("weaponsheet.tsv");
+
+        var tsvlines = tsvstring.Split("\n");
+
+        List<List<string>> tsv = new();
+
+        for (int i = 0; i < tsvlines.Length; i++)
+        {
+            var line = tsvlines[i];
+            var splitLine = line.Split('\t');
+            tsv.Add(splitLine.ToList());
+        }
+
+        for (var x = 0; x < tsv.Count(); x+=2)
+        {
+            for (var y = 0; y < tsv[x].Count(); y++)
+            {
+                if (y < 3 || y == 65)
+                    continue;
+                if (!string.IsNullOrWhiteSpace(tsv[y][x]))
+                {
+                    LoadedWeapons.Add(new() { Name = tsv[y][x], Tier = tsv[0][x], Vanilla = (y > 65)});
+                }
+            } 
+        }
+    }
     public static string FormatTime(int time)
     {
         if (time == 0)
