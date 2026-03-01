@@ -7,7 +7,7 @@ on:
   # Runs on pushes targeting the default branch for the app's folder path
   push:
     paths:
-      - CalamityTierlist/CalamityTierList**
+      - CalamityTierlist/**
     branches:
       - main
 
