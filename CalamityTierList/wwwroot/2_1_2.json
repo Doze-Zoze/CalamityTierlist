@@ -3,7 +3,7 @@
         "tester": "Ueltz",
         "weapon": "Evil Smasher",
         "tier": "Z",
-        "notes": "That 3:47? I got lucky and didn't get hit while hitting destroyer segments. If you dont get hit and manage to hit the body for a while, you scale quickly, but in order to keep that you either have to become neo from the matrix or have 20 crosses on you",
+        "notes": "",
         "bosses": [
             {
                 "name": "Queen Slime",
@@ -24,7 +24,8 @@
                 "name": "Destroyer",
                 "timeString": "6:39",
                 "time": 399,
-                "died": 0.2682
+                "died": 0.2682,
+                "note": "I got lucky and didn't get hit while hitting destroyer segments. If you dont get hit and manage to hit the body for a while, you scale quickly, but in order to keep that you either have to become neo from the matrix or have 20 crosses on you"
             },
             {
                 "name": "Destroyer",
@@ -41,7 +42,8 @@
     {
         "tester": "WyvernElement",
         "weapon": "Orderbringer",
-        "notes": "Absolutely peak, super OP in true melee and great otherwise.",
+        "shortnote": "Strong true melee",
+        "notes": "",
         "tier": "SS",
         "bosses": [
             {
@@ -55,6 +57,73 @@
                 "timeString": "3:47",
                 "time": 227,
                 "note": "Really good at hearts"
+            }
+        ]
+    },
+    {
+        "tester": "Lynel",
+        "weapon": "Holy Collider",
+        "tier": "S",
+        "bosses": [
+            {
+                "name": "Storm Weaver",
+                "time": 70,
+                "gear": "LC"
+            },
+            {
+                "name": "Storm Weaver",
+                "time": 60,
+                "gear": "RC"
+            },
+            {
+                "name": "Ceaseless Void",
+                "time": 84,
+                "gear": "LC"
+            },
+            {
+                "name": "Ceaseless Void",
+                "time": 79,
+                "gear": "RC"
+            },
+            {
+                "name": "Signus",
+                "time": 60,
+                "gear": "LC"
+            },
+            {
+                "name": "Signus",
+                "time": 83,
+                "gear": "RC"
+            },
+            {
+                "name": "Polterghast",
+                "time": 94,
+                "gear": "LC"
+            },
+            {
+                "name": "Polterghast",
+                "time": 126,
+                "gear": "RC"
+            },
+            {
+                "name": "Old Duke",
+                "time": 195,
+                "gear": "LC"
+            },
+            {
+                "name": "Old Duke",
+                "time": 150,
+                "gear": "RC"
+            },
+            {
+                "name": "Devourer of Gods",
+                "time": 229,
+                "gear": "LC"
+            },
+            {
+                "name": "Devourer of Gods",
+                "time": 186,
+                "gear": "RC"
             }
         ]
     }

@@ -10,6 +10,7 @@ public class TestData
     public string tester { get; set; } = string.Empty;
     public string weapon { get; set; } = string.Empty;
     public string? notes { get { return field == string.Empty ? null : field; } set; } = string.Empty;
+    public string? shortnote { get { return field == string.Empty ? null : field; } set; } = string.Empty;
     public string? tier { get { return field == string.Empty ? null : field; } set; } = string.Empty;
 
     public List<BossTestData> bosses { get; set; } = new();
@@ -70,6 +71,7 @@ public struct WeaponData
     public string Tier { get; set; }
     public bool Vanilla { get; set; }
     public string ImageOverride { get; set; }
+    public string WikiOverride { get; set; }
 }
 public static class Data
 {
@@ -78,6 +80,7 @@ public static class Data
     public static List<TestData> LoadedData = new();
     public static List<WeaponData> LoadedWeapons = new();
 
+    public static AggregateTestData SelectedTest = new();
     public static List<WeaponData> WeaponsAlphabetical => LoadedWeapons.OrderBy(x => x.Name).ToList();
     public async static Task LoadTestData(HttpClient http)
     {

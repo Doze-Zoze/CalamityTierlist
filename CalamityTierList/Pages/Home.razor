@@ -13,23 +13,25 @@
         <thead>
             <tr>
                 <th style="width: 20%">Weapon</th>
-                <th>Tier</th>
-                <th style="width: 33%">Best Times</th>
+                <th style="width: 0%">Tier</th>
+                <th style="width: 30%">Best Times</th>
                 @*<th>Average Times</th>*@
+                <th style="width: 10%">Short Notes</th>
                 <th>Notes</th>
+                <th></th>
             </tr>
         </thead>
 		<tbody>
             @foreach (var test in Data.aggregateTests)
-    {
-        <tr>
-            <td>
-                <div style="display:flex;flex-direction:column;justify-content:center;justify-items:center;">
-                    @{
-                            var currentWeapon = Data.LoadedWeapons.First(x => x.Name == test.ItemName);
+            {
+                <tr>
+                    <td>
+                        <div style="display:flex;flex-direction:column;justify-content:center;justify-items:center;">
+                            @{
+                                var currentWeapon = Data.LoadedWeapons.First(x => x.Name == test.ItemName);
                                 <img src="@( !string.IsNullOrWhiteSpace(currentWeapon.ImageOverride) ? currentWeapon.ImageOverride : currentWeapon.Vanilla ? $"https://terraria.wiki.gg/images/{test.ItemName.Replace(" ","_")}.png" : $"https://calamitymod.wiki.gg/images/{test.ItemName.Replace(" ","_")}.png")" style="max-width: 48px; margin:auto" />
-                    }
-                            <span style="margin:auto; text-align:center">@test.ItemName</span>
+                                <a style="margin:auto; text-align:center" href="@(!string.IsNullOrWhiteSpace(currentWeapon.WikiOverride) ? currentWeapon.WikiOverride : $"https://{(currentWeapon.Vanilla ? "terraria" : "calamitymod")}.wiki.gg/wiki/{test.ItemName.Replace(" ", "_")}")">@test.ItemName</a>
+                            }
                         </div>
                 </td>
                     <td>
@@ -43,11 +45,14 @@
             <td>
                 @foreach (var boss in test.BestTimes)
                 {
-                    <div style="margin-bottom: 5px">
+                    <div style="margin-bottom: 5px" title="@boss.note">
                                 <b>@boss.name</b>: @boss.timeString @if (boss.died > 0) {
                                 <small> (@boss.diedString left)</small>
+                            } @if (!string.IsNullOrWhiteSpace(boss.gear))
+                            {
+                                <small> (@boss.gear)</small>
                             }
-                    </div>
+                        </div>
                 }
 				</td>
                     @*<td>
@@ -58,6 +63,16 @@
                             </div>
                         }
                     </td>*@
+
+                <td style="max-width:33%">
+                        @foreach (var boss in test.Tests) if (!string.IsNullOrWhiteSpace(boss.shortnote))
+                            {
+                                <div style="margin-bottom: 5px">
+                                    <p title="@boss.tester">@boss.notes</p>
+                                    <p title="@boss.tester">@boss.shortnote</p>
+                                </div>
+                            }
+                </td>
                     <td style="max-width:33%">
                         @foreach (var boss in test.Tests)
                         {
@@ -66,6 +81,7 @@
                             </div>
                         }
                     </td>
+                <td><NavLink href="TestDetails" @onclick="(a) => {Data.SelectedTest = test;}">See Details</NavLink></td>
          </tr>
     }
     </tbody>

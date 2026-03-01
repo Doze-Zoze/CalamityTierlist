@@ -1,0 +1,150 @@
+﻿@page "/TestDetails"
+
+@using CalamityTierList.Data;
+@using System.Text.Json;
+@inject HttpClient Http
+
+<PageTitle>Test Details</PageTitle>
+
+<div style="display:flex;flex-direction:column;justify-content:center;">
+<h1 style="margin: 20px" disabled>Test Details</h1>
+<div id="Details" class="divider">
+    @{
+        var currentWeapon = Data.LoadedWeapons.First(x => x.Name == @Data.SelectedTest.ItemName);
+
+    <span class="wrapper">
+        <label class="label" for="weaponName">Weapon</label>
+        <div style="display:flex;flex-direction:column;justify-content:center;justify-items:center;">
+            
+                <img src="@( !string.IsNullOrWhiteSpace(currentWeapon.ImageOverride) ? currentWeapon.ImageOverride : currentWeapon.Vanilla ? $"https://terraria.wiki.gg/images/{Data.SelectedTest.ItemName.Replace(" ","_")}.png" : $"https://calamitymod.wiki.gg/images/{Data.SelectedTest.ItemName.Replace(" ","_")}.png")" style="max-width: 48px; margin:auto" />
+                <a style="margin:auto; text-align:center" href="@(!string.IsNullOrWhiteSpace(currentWeapon.WikiOverride) ? currentWeapon.WikiOverride : $"https://{(currentWeapon.Vanilla ? "terraria" : "calamitymod")}.wiki.gg/wiki/{Data.SelectedTest.ItemName.Replace(" ", "_")}")">@Data.SelectedTest.ItemName</a>
+            
+        </div>
+    </span>
+    <span class="wrapper">
+        <label class="label" for="weaponName">Progression Tier</label>
+            <span name="WeaponSelect" id="weaponName" class="dropdown">@currentWeapon.Tier</span>
+    </span>
+    }
+
+    <div style="flex-direction:row">
+        <table>
+            <tbody>
+                    <tr>
+                            <td>
+                                <label class="label" for="weaponName">Best Times</label>
+                                @foreach (var boss in Data.SelectedTest.BestTimes)
+                                {
+                                <div style="margin-bottom: 5px" title="@boss.note">
+                                    <b>@boss.name</b>: @boss.timeString @if (boss.died > 0) {
+                                    <small> (@boss.diedString left)</small>
+                                }
+ @if (!string.IsNullOrWhiteSpace(boss.gear))
+                                {
+                                    <small> (@boss.gear)</small>
+                                }
+                            </div>
+                            }
+
+                        </td>
+                        <td>
+                            <label class="label" for="weaponName">Average Times</label>
+                            @foreach (var boss in Data.SelectedTest.AverageTimes)
+                            {
+                                <div style="margin-bottom: 5px">
+                                    <b>@boss.Key</b>: @Data.FormatTime(boss.Value)
+                                </div>
+                            }
+
+                        </td>
+                    </tr>
+				</tbody>
+        </table>
+    </div>
+</div>
+
+<div id="TestMainBox" class="divider" style="min-width:100%;overflow-x:auto;">
+    <table style="min-width:600px">
+        <thead>
+            <tr>
+                <th>Tester</th>
+                <th>Ranking</th>
+                <th>Shortnotes</th>
+                <th>Detailed Notes</th>
+                <th>Killtimes</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+		<tbody>
+            @foreach (var test in Data.SelectedTest.Tests)
+            {
+                <tr>
+                    <td>
+                        <div style="margin-bottom: 5px">
+                            @test.tester
+                        </div>
+                    </td>
+                    <td>
+                            <div style="margin-bottom: 5px">
+                                @test.tier
+                            </div>
+                    </td>
+                <td style="max-width:33%">
+                        @if (!string.IsNullOrWhiteSpace(test.shortnote))
+                            {
+                                <div style="margin-bottom: 5px">
+                                    <p>@test.shortnote</p>
+                                </div>
+                            }
+                </td>
+                    <td style="max-width:33%">
+                            <div style="margin-bottom: 5px">
+                                <p>@test.notes</p>
+                            </div>
+                    </td>
+                <td>
+
+                    @foreach (var boss in test.bosses)
+                    {
+                        <div style="margin-bottom: 5px" title="@(boss.note + boss.gear)">
+                            <b>@boss.name</b>: @boss.timeString @if (boss.died > 0) {
+                                <small> (@boss.diedString left)</small>
+    }
+                                @if (!string.IsNullOrWhiteSpace(boss.gear))
+                                {
+                                <small> (@boss.gear)</small>
+                                }
+                            </div>
+                    }
+                </td>
+                <td>
+
+                    @foreach (var boss in test.bosses) if (!string.IsNullOrWhiteSpace(boss.note))
+                    {
+                        <div style="margin-bottom: 5px">
+                            <b>@boss.name</b>: @boss.gear @boss.note
+                    </div>
+                                        }
+                </td>
+         </tr>
+    }
+    </tbody>
+	</table>
+</div>
+</div>
+@code {
+    public string output
+    {
+        get
+        {
+            return JsonSerializer.Serialize(Data.LoadedWeapons, new JsonSerializerOptions { WriteIndented = true, DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull });
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Data.LoadTestData(Http);
+        await Data.LoadWeaponTSV(Http);
+    }
+
+}

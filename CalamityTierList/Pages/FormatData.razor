@@ -21,16 +21,21 @@
                 </select>
             </span>
             <span class="wrapper">
-                <label class="label" for="weaponDamage"> Tester*</label>
-                <input name="searchTxt" type="text" maxlength="512" id="testerName" @bind="@testData.tester" class="inputField" />
+                <label class="label" for="TesterName"> Tester*</label>
+                <input name="searchTxt" type="text" maxlength="512" id="TesterName" @bind="@testData.tester" class="inputField" />
+            </span>
+            
+                <span class="wrapper">
+                    <label class="label" for="ShortNotes" > Short Note </label>
+                    <input name="searchTxt" type="text" maxlength="512" id="ShortNotes" @bind="@testData.shortnote" class="inputField" />
+                </span>
+            <span class="wrapper">
+                <label class="label" for="DetailedNotes"> Detailed Notes </label>
+                <input name="searchTxt" type="text" maxlength="2056" id="DetailedNotes" @bind="@testData.notes" class="inputField" />
             </span>
             <span class="wrapper">
-                <label class="label" for="weaponCrit"> Notes </label>
-                <input name="searchTxt" type="text" maxlength="512" id="weaponCrit" @bind="@testData.notes" class="inputField" />
-            </span>
-            <span class="wrapper">
-                <label class="label" for="weaponDamageType">Tier </label>
-                <select name="WeaponSelect" id="weaponDamageType" @bind="@testData.tier" class="dropdown">
+                <label class="label" for="WeaponTiering">Tier </label>
+                <select name="WeaponSelect" id="WeaponTiering" @bind="@testData.tier" class="dropdown">
                     <option value=""></option>
                     <option value="SS">SS</option>
                     <option value="S">S</option>
@@ -44,7 +49,7 @@
                 </select>
             </span>
             <span class="wrapper">
-                <button name="AddTest" id="weaponDamageType" class="dropdown" @onclick="AddNewBoss">
+                <button name="AddTest" id="AddBoss" class="dropdown" @onclick="AddNewBoss">
                     Add Boss*
                 </button>
             </span>
@@ -56,29 +61,30 @@
             <div class="divider">
                 <a class="boxTitle">Bossfight</a>
                 <span class="wrapper">
-                    <label class="label" for="weaponName">Boss*</label>
-                    <input name="searchTxt" type="text" maxlength="512" @bind="@data.name" class="inputField" />
+                    <label class="label" for="@("BossName" + i)">Boss*</label>
+                    <input name="searchTxt" type="text" maxlength="512" id="@("BossName" + i)" @bind="@data.name" class="inputField" />
                     @*<select name="WeaponSelect" id="weaponName" class="dropdown"></select>*@
                 </span>
                 <span class="wrapper">
-                    <label class="label" for="weaponDamage"> Time* </label>
-                    <input name="searchTxt" type="text" maxlength="512" @bind="@data.timeString" class="inputField" />
+                    <label class="label" for="@("Time" + i)"> Time* </label>
+                    <input name="searchTxt" type="text" maxlength="512" id="@("Time" + i)" @bind="@data.timeString" class="inputField" />
                 </span>
                 
                 <span class="wrapper">
-                    <label class="label" for="weaponDamage"> Died At (if applicable) </label>
-                    <input name="searchTxt" type="text" maxlength="512" @bind="@data.timeString" class="inputField" />
-                </span>
-                <span class="wrapper">
-                    <label class="label" for="weaponCrit" > Notes </label>
-                    <input name="searchTxt" type="text" maxlength="512" @bind="@data.note" class="inputField" />
+                    <label class="label" for="@("Died" + i)"> Died At (if applicable) </label>
+                    <input name="searchTxt" type="text" maxlength="512" id="@("Died" + i)" @bind="@data.died" class="inputField" />
                 </span>
 
                 <span class="wrapper">
-                    <label class="label" for="weaponCrit"> Gear </label>
-                    <input name="searchTxt" type="text" maxlength="512" @bind="@data.gear" class="inputField" />
+                    <label class="label" for="@("BossNote" + i)" > Notes </label>
+                    <input name="searchTxt" type="text" maxlength="512" id="@("BossNote" + i)" @bind="@data.note" class="inputField" />
                 </span>
-                <button name="AddTest" id="weaponDamageType" class="dropdown" @onclick="() => {
+
+                <span class="wrapper">
+                    <label class="label" for="@("BossGear" + i)"> Gear </label>
+                    <input name="searchTxt" type="text" maxlength="512" id="@("BossGear" + i)" @bind="@data.gear" class="inputField" />
+                </span>
+                <button name="RemoveBoss" id="RemoveBoss" class="dropdown" @onclick="() => {
                     testData.bosses.Remove(data);
                     i--;
                 }">
