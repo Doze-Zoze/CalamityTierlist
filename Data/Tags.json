@@ -1,0 +1,94 @@
+[
+    {
+        "Tag": "Healing",
+        "Icon": "",
+        "IsPositive": true
+    },
+    {
+        "Tag": "Easy to Use",
+        "Icon": "",
+        "IsPositive": true
+    },
+    {
+        "Tag": "Easy to Obtain",
+        "Icon": "",
+        "IsPositive": true
+    },
+    {
+        "Tag": "Crowd Control",
+        "Icon": "",
+        "IsPositive": true
+    },
+    {
+        "Tag": "Invulnerability",
+        "Icon": "",
+        "IsPositive": true
+    },
+    {
+        "Tag": "Mobility",
+        "Icon": "",
+        "IsPositive": true
+    },
+    {
+        "Tag": "Reduces Survivability",
+        "Icon": "",
+        "IsPositive": false
+    },
+    {
+        "Tag": "Complex",
+        "Icon": "",
+        "IsPositive": false
+    },
+    {
+        "Tag": "Unorthodox Strategy",
+        "Icon": "",
+        "IsPositive": false
+    },
+    {
+        "Tag": "Agressive play",
+        "Icon": "",
+        "IsPositive": false
+    },
+    {
+        "Tag": "Tedious obtainment",
+        "Icon": "",
+        "IsPositive": false
+    },
+    {
+        "Tag": "Annoying to use",
+        "Icon": "",
+        "IsPositive": false
+    },
+    {
+        "Tag": "Armor Penetration",
+        "Icon": ""
+    },
+    {
+        "Tag": "Debuff",
+        "Icon": ""
+    },
+    {
+        "Tag": "Support",
+        "Icon": ""
+    },
+    {
+        "Tag": "Spam",
+        "Icon": ""
+    },
+    {
+        "Tag": "Stealth",
+        "Icon": ""
+    },
+    {
+        "Tag": "Hybrid",
+        "Icon": ""
+    },
+    {
+        "Tag": "Left Click",
+        "Icon": ""
+    },
+    {
+        "Tag": "Right Click",
+        "Icon": ""
+    }
+]
