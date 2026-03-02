@@ -7,7 +7,7 @@ on:
   # Runs on pushes targeting the default branch for the app's folder path
   push:
     paths-ignore:
-      - '**.js'
+      - '**.json'
       - '**.yml'
     branches:
       - main
