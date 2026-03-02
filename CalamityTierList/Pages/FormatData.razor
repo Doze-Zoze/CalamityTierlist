@@ -24,6 +24,10 @@
                 <label class="label" for="TesterName"> Tester*</label>
                 <input name="searchTxt" type="text" maxlength="512" id="TesterName" @bind="@testData.tester" class="inputField" />
             </span>
+            <span class="wrapper">
+                <label class="label" for="VersionNumber"> Version*</label>
+                <input name="searchTxt" type="text" maxlength="512" id="VersionNumber" @bind="@testData.version" class="inputField" />
+            </span>
             
                 <span class="wrapper">
                     <label class="label" for="ShortNotes" > Short Note </label>
@@ -72,7 +76,7 @@
                 
                 <span class="wrapper">
                     <label class="label" for="@("Died" + i)"> Died At (if applicable) </label>
-                    <input name="searchTxt" type="text" maxlength="512" id="@("Died" + i)" @bind="@data.died" class="inputField" />
+                    <input name="searchTxt" type="text" maxlength="512" id="@("Died" + i)" @bind="@data.diedString" class="inputField" />
                 </span>
 
                 <span class="wrapper">

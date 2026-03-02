@@ -2,6 +2,7 @@
 using System;
 using System.Linq;
 using System.Net.Http.Json;
+using System.Text.Json.Serialization;
 
 namespace CalamityTierList.Data;
 
@@ -9,6 +10,7 @@ public class TestData
 {
     public string tester { get; set; } = string.Empty;
     public string weapon { get; set; } = string.Empty;
+    public string version { get; set; } = "2.1.2";
     public string? notes { get { return field == string.Empty ? null : field; } set; } = string.Empty;
     public string? shortnote { get { return field == string.Empty ? null : field; } set; } = string.Empty;
     public string? tier { get { return field == string.Empty ? null : field; } set; } = string.Empty;
@@ -18,6 +20,7 @@ public class TestData
 public class BossTestData
 {
     public string name { get; set; } = string.Empty;
+    [JsonIgnore]
     public string timeString
     {
         get
@@ -37,13 +40,14 @@ public class BossTestData
                 time = int.Parse(value);
         }
     }
+    [JsonIgnore]
     public string diedString
     {
         get
         {
-            if (died == 0)
+            if (died == null)
                 return string.Empty;
-            return $"{(died*100).ToString("##.##")}%";
+            return $"{((died ?? 0)*100).ToString("##.##")}%";
         }
         set
         {
@@ -51,7 +55,7 @@ public class BossTestData
             died = Single.Parse(value) / 100f;
         }
     }
-    public float died { get; set; }
+    public float? died { get { return field == 0 ? null : field; } set; }
     public int time { get; set; }
     public string? note { get { return field == string.Empty ? null : field; } set; } = string.Empty;
     public string? gear { get { return field == string.Empty ? null : field; } set; } = string.Empty;
@@ -72,6 +76,7 @@ public struct WeaponData
     public bool Vanilla { get; set; }
     public string ImageOverride { get; set; }
     public string WikiOverride { get; set; }
+    public string LastUpdated { get; set; }
 }
 public static class Data
 {
@@ -86,8 +91,8 @@ public static class Data
     {
         if (LoadedData.Count > 0)
             return;
-
-        LoadedData = await http.GetFromJsonAsync<List<TestData>>("2_1_2.json") ?? new();
+        string uri = "https://raw.githubusercontent.com/Doze-Zoze/CalamityTierlist/refs/heads/main/Data/TestResults.json";
+        LoadedData = await http.GetFromJsonAsync<List<TestData>>(uri) ?? new();
 
         foreach (var item in LoadedData)
         {
@@ -150,7 +155,8 @@ public static class Data
         if (LoadedWeapons.Count > 0)
             return;
 
-        LoadedWeapons = await http.GetFromJsonAsync<List<WeaponData>>("WeaponProgression.json") ?? new();
+        string uri = "https://raw.githubusercontent.com/Doze-Zoze/CalamityTierlist/refs/heads/main/Data/WeaponProgression.json";
+        LoadedWeapons = await http.GetFromJsonAsync<List<WeaponData>>(uri) ?? new();
 
         if (LoadedWeapons.Count > 0)
             return;
