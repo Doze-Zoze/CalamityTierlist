@@ -126,5 +126,114 @@
                 "gear": "RC"
             }
         ]
+    },
+
+    {
+  "tester": "MPG",
+  "weapon": "Vengeful Sun Staff",
+  "tier": "SS",
+  "bosses": [
+    {
+      "name": "Calamitas Clone",
+      "time": 156
+    },
+    {
+      "name": "Calamitas Clone",
+      "time": 127,
+      "gear": "Durendal"
+    },
+    {
+      "name": "Plantera",
+      "time": 156
+    },
+    {
+      "name": "Plantera",
+      "time": 111,
+      "gear": "Durendal"
+    },
+    {
+      "name": "Astrum Aureus",
+      "time": 156
+    },
+    {
+      "name": "Astrum Aureus",
+      "time": 92,
+      "gear": "Morning Star"
+    },
+    {
+      "name": "Leviathan",
+      "time": 183
+    },
+    {
+      "name": "Leviathan",
+      "time": 109,
+      "gear": "Morning Star"
+    },
+    {
+      "name": "Golem",
+      "time": 138
+    },
+    {
+      "name": "Golem",
+      "time": 85,
+      "gear": "Morning Star"
+    },
+    {
+      "name": "Ravager",
+      "time": 171,
+      "gear": "Dark Harvest"
+    },
+    {
+      "name": "Ravager",
+      "time": 111,
+      "gear": "Dark Harvest"
+    },
+    {
+      "name": "Plaguebringer Goliath",
+      "time": 193
+    },
+    {
+      "name": "Plaguebringer Goliath",
+      "time": 126,
+      "gear": "Dark Harvest"
+    },
+    {
+      "name": "Empress of Light",
+      "time": 117
+    },
+    {
+      "name": "Empress of Light",
+      "time": 88,
+      "gear": "Dark Harvest"
+    },
+    {
+      "name": "Duke Fishron",
+      "time": 114
+    },
+    {
+      "name": "Duke Fishron",
+      "time": 83,
+      "gear": "Dark Harvest"
+    },
+    {
+      "name": "Lunatic Cultist",
+      "died": 0,
+      "time": 105
+    },
+    {
+      "name": "Lunatic Cultist",
+      "time": 71,
+      "gear": "Kaleidoscope"
+    },
+    {
+      "name": "Moon Lord",
+      "time": 160
+    },
+    {
+      "name": "Moon Lord",
+      "time": 125,
+      "gear": "Kaleidoscope"
     }
+  ]
+}
 ]
