@@ -16,7 +16,7 @@
                 <th style="width: 0%">Tier</th>
                 <th style="width: 30%">Best Times</th>
                 @*<th>Average Times</th>*@
-                <th style="width: 10%">Short Notes</th>
+                <th style="width: 10%">Tags</th>
                 <th>Notes</th>
                 <th></th>
             </tr>
@@ -65,13 +65,22 @@
                     </td>*@
 
                 <td style="max-width:33%">
-                        @foreach (var boss in test.Tests) if (!string.IsNullOrWhiteSpace(boss.shortnote))
+                    <div class="wrapper">
+                        <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center;">
+                            @foreach (var obj in test.Tests)
                             {
-                                <div style="margin-bottom: 5px">
-                                    <p title="@boss.tester">@boss.notes</p>
-                                    <p title="@boss.tester">@boss.shortnote</p>
-                                </div>
+								List<string> taglist = new List<string>();
+                                foreach (var tag in obj.tags)
+                                {
+                                    if (!taglist.Contains(tag))
+                                    {
+                                        <div class="tag">tag</div>
+										taglist.Add(tag);
+                                    }
+                                }
                             }
+                        </div>
+                    </div>
                 </td>
                     <td style="max-width:33%">
                         @foreach (var boss in test.Tests)
@@ -101,6 +110,8 @@
     {
         await Data.LoadTestData(Http);
         await Data.LoadWeaponTSV(Http);
+		await Data.LoadTags(Http);
+		await Data.LoadBosses(Http);
     }
 
 }

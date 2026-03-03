@@ -8,8 +8,9 @@
 
 <div id="FlexContainer">
     <div id="DividerWrapper">
-        <div id="TestMainBox" class="divider">
+        <div id="TestMainBox" class="divider" style="margin:10px auto 0 auto; min-width:90%">
             <a class="boxTitle">Test Details</a>
+            <div style="display:flex; justify-content:center; flex-wrap:wrap;">
             <span class="wrapper">
                 <label class="label" for="weaponName">Weapon*</label>
                 <select name="WeaponSelect" id="weaponName" class="dropdown" @bind="@testData.weapon">
@@ -28,15 +29,6 @@
                 <label class="label" for="VersionNumber"> Version*</label>
                 <input name="searchTxt" type="text" maxlength="512" id="VersionNumber" @bind="@testData.version" class="inputField" />
             </span>
-            
-                <span class="wrapper">
-                    <label class="label" for="ShortNotes" > Short Note </label>
-                    <input name="searchTxt" type="text" maxlength="512" id="ShortNotes" @bind="@testData.shortnote" class="inputField" />
-                </span>
-            <span class="wrapper">
-                <label class="label" for="DetailedNotes"> Detailed Notes </label>
-                <input name="searchTxt" type="text" maxlength="2056" id="DetailedNotes" @bind="@testData.notes" class="inputField" />
-            </span>
             <span class="wrapper">
                 <label class="label" for="WeaponTiering">Tier </label>
                 <select name="WeaponSelect" id="WeaponTiering" @bind="@testData.tier" class="dropdown">
@@ -52,6 +44,20 @@
                     <option value="Z">Z</option>
                 </select>
             </span>
+            </div>
+            <div class="wrapper">
+                    <label class="label" id="Tags" > Tags </label>
+                    <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center;">
+                   @foreach (var obj in Data.TagData)
+                {
+                    <div class="tag @(CheckTag(obj.Tag) ? "" : "deselected")" @onclick="() => ToggleTag(obj.Tag)">@obj.Tag</div>
+                }
+                </div>
+            </div>
+            <span class="wrapper">
+                <label class="label" for="DetailedNotes"> Detailed Notes </label>
+                <textarea name="searchTxt" type="text" maxlength="2056" id="DetailedNotes" @bind="@testData.notes" class="inputField" />
+            </span>
             <span class="wrapper">
                 <button name="AddTest" id="AddBoss" class="dropdown" @onclick="AddNewBoss">
                     Add Boss*
@@ -66,8 +72,13 @@
                 <a class="boxTitle">Bossfight</a>
                 <span class="wrapper">
                     <label class="label" for="@("BossName" + i)">Boss*</label>
-                    <input name="searchTxt" type="text" maxlength="512" id="@("BossName" + i)" @bind="@data.name" class="inputField" />
-                    @*<select name="WeaponSelect" id="weaponName" class="dropdown"></select>*@
+                    <select name="WeaponSelect" id="@("BossName" + i)" class="dropdown" @bind="@data.name">
+                        <option value=""></option>
+                        @foreach (var obj in Data.BossData)
+                        {
+                            <option value="@obj.Name">@obj.Name</option>
+                        }
+                    </select>
                 </span>
                 <span class="wrapper">
                     <label class="label" for="@("Time" + i)"> Time* </label>
@@ -123,10 +134,22 @@
     {
         testData.bosses.Add(new());
     }
-    
+
     protected override async Task OnInitializedAsync()
     {
         await Data.LoadTestData(Http);
         await Data.LoadWeaponTSV(Http);
+    }
+
+    bool CheckTag(string tag)
+    {
+        if (testData.tags.Contains(tag))
+            return true;
+        return false;
+    }
+
+    async Task ToggleTag(string tag) {
+        if (!testData.tags.Remove(tag))
+            testData.tags.Add(tag);
     }
 }

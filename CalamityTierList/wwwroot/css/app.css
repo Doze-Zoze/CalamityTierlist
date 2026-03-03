@@ -1,11 +1,11 @@
 :root {
-    --foreground-bg: #0f0a16;
+    --foreground-bg: #15101d;
     --foreground-border: #9944ff;
     --backdrop-bg: #0a080f;
     --backdrop-border: #b06bff;
     --text: white;
     --text-light: #d6c3bb;
-    --input-bg: #2b1f40;
+    --input-bg: #352750;
     --background: linear-gradient(0deg, rgb(98, 150, 76) 0%, rgb(135, 201, 221) 100%);
     --shaded-bg: #2b1f40;
 }
@@ -226,6 +226,7 @@ div#FlexContainer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    max-width
 }
 
 .reforgewrapper {
@@ -292,7 +293,6 @@ select, button {
     }
 
 .inputField {
-    max-width: 400px;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
@@ -337,7 +337,7 @@ select, button {
     margin-right: 0.5em;
 }
 
-input {
+input, textarea {
     color: var(--text);
     background-color: var(--backdrop-bg);
     border-style: none;
@@ -352,3 +352,19 @@ input {
 h1 {
     text-align: center;
 }
+
+.tag {
+    width: fit-content;
+    display: inline-block;
+    background-color: var(--backdrop-border);
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 0.25em 0.5em;
+    margin: 0.25em;
+    font-size: 0.8em;
+}
+.deselected {
+        background-color: var(--input-bg);
+    }

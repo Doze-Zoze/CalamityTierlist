@@ -6,13 +6,14 @@ using System.Text.Json.Serialization;
 
 namespace CalamityTierList.Data;
 
+#region Data Classes/Structs
 public class TestData
 {
     public string tester { get; set; } = string.Empty;
     public string weapon { get; set; } = string.Empty;
     public string version { get; set; } = "2.1.2";
     public string? notes { get { return field == string.Empty ? null : field; } set; } = string.Empty;
-    public string? shortnote { get { return field == string.Empty ? null : field; } set; } = string.Empty;
+    public List<string> tags { get; set; } = new();
     public string? tier { get { return field == string.Empty ? null : field; } set; } = string.Empty;
 
     public List<BossTestData> bosses { get; set; } = new();
@@ -78,12 +79,27 @@ public struct WeaponData
     public string WikiOverride { get; set; }
     public string LastUpdated { get; set; }
 }
+public class Tags
+{
+    public string Tag { get; set; }
+    public string Icon { get; set; }
+    public bool? IsPositive { get; set; } = null;
+}
+public struct Boss
+{
+    public string Name { get; set; }
+    public string MapIcon { get; set; }
+    public int Time { get; set; }
+}
+#endregion
 public static class Data
 {
 
     public static List<AggregateTestData> aggregateTests = new();
     public static List<TestData> LoadedData = new();
     public static List<WeaponData> LoadedWeapons = new();
+    public static List<Tags> TagData = new();
+    public static List<Boss> BossData = new();
 
     public static AggregateTestData SelectedTest = new();
     public static List<WeaponData> WeaponsAlphabetical => LoadedWeapons.OrderBy(x => x.Name).ToList();
@@ -186,6 +202,26 @@ public static class Data
                 }
             } 
         }
+    }
+
+
+    public async static Task LoadTags(HttpClient http)
+    {
+
+        if (TagData.Count > 0)
+            return;
+
+        string uri = "https://raw.githubusercontent.com/Doze-Zoze/CalamityTierlist/refs/heads/main/Data/Tags.json";
+        TagData = await http.GetFromJsonAsync<List<Tags>>(uri) ?? new();
+    }
+    public async static Task LoadBosses(HttpClient http)
+    {
+
+        if (BossData.Count > 0)
+            return;
+
+        string uri = "https://raw.githubusercontent.com/Doze-Zoze/CalamityTierlist/refs/heads/main/Data/Bosses.json";
+        BossData = await http.GetFromJsonAsync<List<Boss>>(uri) ?? new();
     }
     public static string FormatTime(int time)
     {

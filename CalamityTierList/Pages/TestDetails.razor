@@ -90,10 +90,10 @@
                             </div>
                     </td>
                 <td style="max-width:33%">
-                        @if (!string.IsNullOrWhiteSpace(test.shortnote))
+                        @if (!string.IsNullOrWhiteSpace(""))
                             {
                                 <div style="margin-bottom: 5px">
-                                    <p>@test.shortnote</p>
+                                    <p>""</p>
                                 </div>
                             }
                 </td>
@@ -145,6 +145,8 @@
     {
         await Data.LoadTestData(Http);
         await Data.LoadWeaponTSV(Http);
+        await Data.LoadTags(Http);
+        await Data.LoadBosses(Http);
     }
 
 }
