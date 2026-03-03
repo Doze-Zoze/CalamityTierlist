@@ -3,6 +3,11 @@
         "tester": "Ueltz",
         "weapon": "Evil Smasher",
         "tier": "Z",
+        "tags": [
+          "Agressive Play",
+          "Annoying to use",
+          "Unorthodox Strategy"
+        ],
         "notes": "",
         "bosses": [
             {
@@ -42,7 +47,8 @@
     {
         "tester": "WyvernElement",
         "weapon": "Orderbringer",
-        "shortnote": "Strong true melee",
+        "tags": [
+        ],
         "notes": "",
         "tier": "SS",
         "bosses": [
@@ -64,6 +70,9 @@
         "tester": "Lynel",
         "weapon": "Holy Collider",
         "tier": "S",
+        "tags": [
+          "Agressive Play"
+        ],
         "bosses": [
             {
                 "name": "Storm Weaver",
