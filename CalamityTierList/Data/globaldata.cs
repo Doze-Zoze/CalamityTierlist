@@ -60,6 +60,8 @@ public class BossTestData
     public int time { get; set; }
     public string? note { get { return field == string.Empty ? null : field; } set; } = string.Empty;
     public string? gear { get { return field == string.Empty ? null : field; } set; } = string.Empty;
+
+    public bool blacklistFromBest { get; set; } = false;
 }
 
 public class AggregateTestData

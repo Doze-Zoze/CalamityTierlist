@@ -1,4 +1,5 @@
 ﻿@page "/TestDetails"
+@page "/TestDetails/{ItemToFind}"
 
 @using CalamityTierList.Data;
 @using System.Text.Json;
@@ -8,7 +9,7 @@
 
 <div style="display:flex;flex-direction:column;justify-content:center;">
 <h1 style="margin: 20px" disabled>Test Details</h1>
-<div id="Details" class="divider">
+    <div id="Details" class="divider" style="max-width:unset;">
     @{
         var currentWeapon = Data.LoadedWeapons.First(x => x.Name == @Data.SelectedTest.ItemName);
 
@@ -35,7 +36,7 @@
                                 <label class="label" for="weaponName">Best Times</label>
                                 @foreach (var boss in Data.SelectedTest.BestTimes)
                                 {
-                                <div style="margin-bottom: 5px" title="@boss.note">
+                                <div style="margin-bottom: 5px; width:max-content;" title="@boss.note">
                                     <b>@boss.name</b>: @boss.timeString @if (boss.died > 0) {
                                     <small> (@boss.diedString left)</small>
                                 }
@@ -51,7 +52,7 @@
                             <label class="label" for="weaponName">Average Times</label>
                             @foreach (var boss in Data.SelectedTest.AverageTimes)
                             {
-                                <div style="margin-bottom: 5px">
+                                <div style="margin-bottom: 5px; width:max-content;">
                                     <b>@boss.Key</b>: @Data.FormatTime(boss.Value)
                                 </div>
                             }
@@ -67,10 +68,9 @@
     <table style="min-width:600px">
         <thead>
             <tr>
-                <th>Tester</th>
-                <th>Ranking</th>
-                <th>Tags</th>
-                <th>Detailed Notes</th>
+                <th style="width:0">Tester</th>
+                <th style="width:0">Ranking</th>
+                    <th style="width:0">Tags</th>
                 <th>Killtimes</th>
                 <th>Notes</th>
             </tr>
@@ -80,42 +80,37 @@
             {
                 <tr>
                     <td>
-                        <div style="margin-bottom: 5px">
+                            <div style="margin: auto; text-align:center">
                             @test.tester
                         </div>
                     </td>
                     <td>
-                            <div style="margin-bottom: 5px">
+                            <div style="margin: auto; text-align:center">
                                 @test.tier
                             </div>
                     </td>
-                <td style="max-width:33%">
-                            <div class="wrapper">
-                                <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center;">
-                                    @{
-                                        List<string> taglist = new List<string>();
-                                        foreach (var tag in test.tags)
-                                        {
-                                            if (!taglist.Contains(tag))
+                <td>
+                            @{
+                                if (test.tags.Count() > 0)
+                                {
+                                    <div class="wrapper" style="width: fit-content; margin: auto">
+                                        <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; width: fit-content;">
+                                            @foreach (var tag in test.tags)
                                             {
-                                                <div class="tag">@tag</div>
-                                                taglist.Add(tag);
+
+                                                bool? pos = Data.TagData.FirstOrDefault(x => x.Tag == tag)?.IsPositive;
+                                                <div class="tag @(pos.HasValue? pos.Value ? "positive" : "negative" : "")">@tag</div>
                                             }
-                                        }
-                                    }
-                                </div>
-                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
                 </td>
-                    <td style="max-width:33%">
-                            <div style="margin-bottom: 5px">
-                                <p>@test.notes</p>
-                            </div>
-                    </td>
                 <td>
 
                     @foreach (var boss in test.bosses)
                     {
-                        <div style="margin-bottom: 5px" title="@(boss.note + boss.gear)">
+                        <div style="margin-bottom: 5px; width:max-content;" title="@(boss.note + boss.gear)">
                             <b>@boss.name</b>: @boss.timeString @if (boss.died > 0) {
                                 <small> (@boss.diedString left)</small>
     }
@@ -127,13 +122,25 @@
                     }
                 </td>
                 <td>
-
-                    @foreach (var boss in test.bosses) if (!string.IsNullOrWhiteSpace(boss.note))
-                    {
-                        <div style="margin-bottom: 5px">
-                            <b>@boss.name</b>: @boss.gear @boss.note
-                    </div>
-                                        }
+                    @{
+                        if (!string.IsNullOrWhiteSpace(test.notes))
+                        {
+                                <div style="margin-bottom: 5px">
+                                    <p>@test.notes</p>
+                                </div>
+                                if (test.bosses.Any(x => !string.IsNullOrWhiteSpace(x.note)))
+                                    {
+                                    <hr />
+                                    }
+                        }
+                    
+                        foreach (var boss in test.bosses) if (!string.IsNullOrWhiteSpace(boss.note))
+                        {
+                            <div style="margin-bottom: 5px">
+                                        <b>@boss.name</b>@if(!string.IsNullOrWhiteSpace(boss.gear)){<small> (@boss.gear)</small>}: @boss.note
+                            </div>
+                        }
+                    }
                 </td>
          </tr>
     }
@@ -142,6 +149,10 @@
 </div>
 </div>
 @code {
+
+    [Parameter]
+    public string? ItemToFind { get; set; }
+
     public string output
     {
         get
@@ -152,10 +163,20 @@
 
     protected override async Task OnInitializedAsync()
     {
+
         await Data.LoadTestData(Http);
         await Data.LoadWeaponTSV(Http);
         await Data.LoadTags(Http);
         await Data.LoadBosses(Http);
+
+        if (!string.IsNullOrWhiteSpace(ItemToFind))
+        {
+            var found = Data.aggregateTests.FirstOrDefault(x => x.ItemName.ToLower() == ItemToFind.ToLower());
+            if (found != null)
+            {
+                Data.SelectedTest = found;
+            }
+		}
     }
 
 }

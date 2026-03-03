@@ -91,7 +91,7 @@
                         }
                     }
                 </td>
-                <td><div style="width:max-content; text-align:center;"><NavLink href="TestDetails" @onclick="(a) => { Data.SelectedTest = test; }">See Details</NavLink></div></td>
+                <td><div style="width:max-content; text-align:center;"><NavLink href="@($"TestDetails/{test.ItemName}")" @onclick="(a) => { Data.SelectedTest = test; }">See Details</NavLink></div></td>
          </tr>
     }
     </tbody>
