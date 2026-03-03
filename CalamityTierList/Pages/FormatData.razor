@@ -139,6 +139,8 @@
     {
         await Data.LoadTestData(Http);
         await Data.LoadWeaponTSV(Http);
+		await Data.LoadTags(Http);
+		await Data.LoadBosses(Http);
     }
 
     bool CheckTag(string tag)
