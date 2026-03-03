@@ -12,13 +12,12 @@
     <table style="min-width:600px">
         <thead>
             <tr>
-                <th style="width: 20%">Weapon</th>
-                <th style="width: 0%">Tier</th>
-                <th style="width: 30%">Best Times</th>
+                <th style="width: fit-content;">Weapon</th>
+                <th style="width: 0">Tier</th>
+                <th>Best Times</th>
                 @*<th>Average Times</th>*@
-                <th style="width: 10%">Tags</th>
-                <th>Notes</th>
-                <th></th>
+                <th style="width: 20%">Tags</th>
+                <th style="width: 0"></th>
             </tr>
         </thead>
 		<tbody>
@@ -37,7 +36,7 @@
                     <td>
                         @foreach (var boss in test.Tests)
                         {
-                            <div style="margin-bottom: 5px">
+                            <div style="text-align:center">
                                 @boss.tier
                             </div>
                         }
@@ -45,7 +44,7 @@
             <td>
                 @foreach (var boss in test.BestTimes)
                 {
-                    <div style="margin-bottom: 5px" title="@boss.note">
+                    <div style="margin-bottom: 5px; width: max-content" title="@boss.note">
                                 <b>@boss.name</b>: @boss.timeString @if (boss.died > 0) {
                                 <small> (@boss.diedString left)</small>
                             } @if (!string.IsNullOrWhiteSpace(boss.gear))
@@ -64,33 +63,35 @@
                         }
                     </td>*@
 
-                <td style="max-width:33%">
-                    <div class="wrapper">
-                        <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center;">
-                            @foreach (var obj in test.Tests)
+                <td>
+                    @{
+                        List<string> taglist = new List<string>();
+                        @foreach (var obj in test.Tests)
+                        {
+                            foreach (var tag in obj.tags)
                             {
-								List<string> taglist = new List<string>();
-                                foreach (var tag in obj.tags)
+                                if (!taglist.Contains(tag))
                                 {
-                                    if (!taglist.Contains(tag))
-                                    {
-                                        <div class="tag">@tag</div>
-										taglist.Add(tag);
-                                    }
+                                    taglist.Add(tag);
                                 }
                             }
-                        </div>
-                    </div>
-                </td>
-                    <td style="max-width:33%">
-                        @foreach (var boss in test.Tests)
-                        {
-                            <div style="margin-bottom: 5px">
-                                <p title="@boss.tester">@boss.notes</p>
+                            }
+                            if (taglist.Count() > 0)
+                            {
+                            <div class="wrapper" style="width: fit-content; margin: auto">
+                                <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center; width: fit-content;">
+                                    @foreach (var tag in taglist)
+                                    {
+
+                                        bool? pos = Data.TagData.FirstOrDefault(x => x.Tag == tag)?.IsPositive;
+                                        <div class="tag @(pos.HasValue? pos.Value ? "positive" : "negative" : "")">@tag</div>
+                                    }
+                                </div>
                             </div>
                         }
-                    </td>
-                <td><NavLink href="TestDetails" @onclick="(a) => {Data.SelectedTest = test;}">See Details</NavLink></td>
+                    }
+                </td>
+                <td><div style="width:max-content; text-align:center;"><NavLink href="TestDetails" @onclick="(a) => { Data.SelectedTest = test; }">See Details</NavLink></div></td>
          </tr>
     }
     </tbody>

@@ -55,7 +55,12 @@
         "IsPositive": false
     },
     {
-        "Tag": "Annoying to use",
+        "Tag": "Annoying to Use",
+        "Icon": "",
+        "IsPositive": false
+    },
+    {
+        "Tag": "Single Target",
         "Icon": "",
         "IsPositive": false
     },

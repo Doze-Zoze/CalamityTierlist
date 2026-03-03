@@ -8,6 +8,8 @@
     --input-bg: #352750;
     --background: linear-gradient(0deg, rgb(98, 150, 76) 0%, rgb(135, 201, 221) 100%);
     --shaded-bg: #2b1f40;
+    --positive: #22a000;
+    --negative: #dc2a2a;
 }
 
 
@@ -368,3 +370,9 @@ h1 {
 .deselected {
         background-color: var(--input-bg);
     }
+.tag.positive {
+    background-color: var(--positive) !important;
+}
+.tag.negative {
+    background-color: var(--negative) !important;
+}

@@ -50,7 +50,7 @@
                     <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center;">
                    @foreach (var obj in Data.TagData)
                 {
-                    <div class="tag @(CheckTag(obj.Tag) ? "" : "deselected")" @onclick="() => ToggleTag(obj.Tag)">@obj.Tag</div>
+                    <div class="tag @(CheckTag(obj.Tag) ? obj.IsPositive.HasValue ? obj.IsPositive.Value ? "positive":"negative":"" : "deselected")" @onclick="() => ToggleTag(obj.Tag)">@obj.Tag</div>
                 }
                 </div>
             </div>

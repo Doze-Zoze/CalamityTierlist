@@ -136,11 +136,11 @@
             }
         ]
     },
-
     {
   "tester": "MPG",
   "weapon": "Vengeful Sun Staff",
   "tier": "SS",
+  "notes": "Weapon does not have good multi-target, hence the lack of a deus test. Whips help fix that issue immensely",
   "bosses": [
     {
       "name": "Calamitas Clone",
@@ -236,12 +236,70 @@
     },
     {
       "name": "Moon Lord",
-      "time": 160
+      "time": 160,
+      "note": "To get it to actually hit the top eye with any amount of consistency, it's recommended to stay within a 90 degree cone over the top of the top eye, or be straight under the eye, as otherwise it's homing doesn't activate fast enough and you end up missing every shot"
     },
     {
       "name": "Moon Lord",
       "time": 125,
       "gear": "Kaleidoscope"
+    }
+  ]
+},
+{
+  "tester": "Critaquil",
+  "weapon": "Monstrous Knives",
+  "version": "2.1.2",
+  "notes": "All Tests used Craw \u002B STN",
+  "tags": [
+    "Healing"
+  ],
+  "tier": "SS",
+  "bosses": [
+    {
+      "name": "King Slime",
+      "time": 30,
+      "gear": "Lead Armor"
+    },
+    {
+      "name": "King Slime",
+      "time": 28,
+      "gear": "Copper Armor"
+    },
+    {
+      "name": "Desert Scourge",
+      "time": 91
+    },
+    {
+      "name": "Desert Scourge",
+      "time": 79
+    },
+    {
+      "name": "Eye of Cthulhu",
+      "time": 56,
+      "gear": "Lead Armor"
+    },
+    {
+      "name": "Eye of Cthulhu",
+      "time": 49,
+      "gear": "Copper Armor"
+    },
+    {
+      "name": "Eye of Cthulhu",
+      "time": 53,
+      "note": "5.6% Shell",
+      "gear": "Victide Armor"
+    },
+    {
+      "name": "Crabulon",
+      "time": 38,
+      "gear": "Copper Armor"
+    },
+    {
+      "name": "Crabulon",
+      "time": 50,
+      "note": "5.1% Shell",
+      "gear": "Victide Armor"
     }
   ]
 }
