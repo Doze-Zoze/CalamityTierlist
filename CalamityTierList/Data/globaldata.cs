@@ -60,8 +60,7 @@ public class BossTestData
     public int time { get; set; }
     public string? note { get { return field == string.Empty ? null : field; } set; } = string.Empty;
     public string? gear { get { return field == string.Empty ? null : field; } set; } = string.Empty;
-
-    public bool blacklistFromBest { get; set; } = false;
+    public bool validTest { get; set; } = true;
 }
 
 public class AggregateTestData
@@ -136,6 +135,8 @@ public static class Data
             {
                 foreach (var item2 in item1.bosses)
                 {
+                    if (!item2.validTest)
+                        continue;
                     if (!best.Any(x => x.name == item2.name))
                         best.Add(item2);
                     else

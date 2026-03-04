@@ -99,6 +99,11 @@
                     <label class="label" for="@("BossGear" + i)"> Gear / Strategy</label>
                     <input name="searchTxt" type="text" maxlength="512" id="@("BossGear" + i)" @bind="@data.gear" class="inputField" />
                 </span>
+                
+                <span class="wrapper">
+                    <label class="label" for="@("ValidTest" + i)" title="Whether this test should count for 'best' and 'average' times. Uncheck for tests that do not follow normal testing rules for the item"> Counts towards ranking</label>
+                    <input name="searchTxt" type="checkbox" maxlength="512" id="@("ValidTest" + i)" @bind="@data.validTest" class="inputField" />
+                </span>
                 <button name="RemoveBoss" id="RemoveBoss" class="dropdown" @onclick="() => {
                     testData.bosses.Remove(data);
                     i--;
